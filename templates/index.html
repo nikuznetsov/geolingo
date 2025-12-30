@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GeoLingo</title>
+
+  <!-- Lightweight brand font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- SVG flags (flag-icons) -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+
+  <style>
+    :root {
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #eee;
+      --card-border: rgba(0,0,0,0.08);
+      --shadow: 0 12px 30px rgba(0,0,0,0.14);
+      --chip-bg: #f3f4f6;
+      --chip-bg-hover: #eaecef;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI Variable",
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+      background: #fff;
+      color: var(--text);
+    }
+
+    /* ===== Topbar ===== */
+    .topbar {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      border-bottom: 1px solid var(--border);
+      box-sizing: border-box;
+    }
+
+    .brand-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: transparent;
+      border: 0;
+      padding: 6px 8px;
+      margin: 0;
+      border-radius: 10px;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    .brand-static {
+      cursor: default;
+    }
+
+    .brand-btn:hover {
+      background: transparent;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      align-items: flex-start;
+    }
+
+    .brand-title {
+      font-weight: 900;
+      font-size: 20px;
+      letter-spacing: 0.4px;
+      line-height: 1.05;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.1;
+    }
+
+    .brand-icon {
+      width: 22px;
+      height: 22px;
+      flex: 0 0 auto;
+      opacity: 0.95;
+    }
+
+    /* ===== Layout ===== */
+    .layout {
+      height: calc(100vh - 64px);
+      display: flex;
+      min-width: 0;
+    }
+
+    .panel {
+      width: 360px;
+      flex: 0 0 360px;
+      border-right: 1px solid var(--border);
+      box-sizing: border-box;
+      padding: 14px;
+      overflow-y: auto;
+      overflow-x: hidden; /* no horizontal scroll */
+      background: #fff;
+    }
+
+    .panel * { box-sizing: border-box; }
+
+    .map-wrap {
+      flex: 1 1 auto;
+      min-width: 0;
+      position: relative;
+    }
+
+    #map {
+      position: absolute;
+      inset: 0;
+      background: #e6ebee;
+    }
+
+    label {
+      font-size: 13px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    /* ===== Tag input + autocomplete ===== */
+    .tag-input-wrap { position: relative; }
+
+    input {
+      width: 100%;
+      font-size: 14px;
+      padding: 9px 10px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      outline: none;
+      font-family: inherit;
+    }
+
+    input:focus {
+      border-color: #b6c2cf;
+      box-shadow: 0 0 0 3px rgba(182, 194, 207, 0.35);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+      padding-bottom: 2px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--chip-bg);
+      border: 1px solid #e5e7eb;
+      cursor: pointer;
+      user-select: none;
+      max-width: 100%;
+    }
+
+    .tag:hover { background: var(--chip-bg-hover); }
+
+    .tag .x { font-weight: 800; opacity: 0.55; }
+
+    .suggest {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(100% + 8px);
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.10);
+      border-radius: 12px;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+      overflow: hidden;
+      z-index: 50;
+      max-height: 260px;
+      overflow-y: auto;
+      display: none;
+    }
+
+    .suggest.open { display: block; }
+
+    .suggest-item {
+      padding: 10px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .suggest-item:hover,
+    .suggest-item.active { background: #f3f4f6; }
+
+    .suggest-item .hint {
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 9px 10px;
+      border-radius: 10px;
+      border: 1px solid #d1d5db;
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+      flex: 1;
+      font-family: inherit;
+      font-weight: 600;
+    }
+
+    button.primary {
+      background: var(--text);
+      color: #fff;
+      border-color: var(--text);
+    }
+
+    .stat {
+      margin-top: 12px;
+      padding: 10px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .hint-text {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 10px;
+      line-height: 1.35;
+    }
+
+    .warn { color: #b45309; }
+
+    /* ===== Country card in sidebar ===== */
+    .fixed-tooltip {
+      position: static;
+      margin-top: 12px;
+      pointer-events: none;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .fixed-tooltip.hidden { display: none; }
+
+    .fixed-tooltip .card {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      border-radius: 14px;
+      border: 1px solid var(--card-border);
+      box-shadow: var(--shadow);
+      padding: 10px 12px;
+      background: #fff;
+    }
+
+    .fixed-tooltip .card, .fixed-tooltip .card * {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    /* SVG flag */
+    .flag { display: inline-block; vertical-align: middle; border-radius: 3px; box-shadow: none; }
+    .flag .fi { width: 44px; height: 32px; display: inline-block; }
+
+    /* Remove black focus outline on country click */
+    .leaflet-container .leaflet-interactive,
+    .leaflet-container .leaflet-interactive:focus,
+    .leaflet-container .leaflet-interactive:focus-visible,
+    .leaflet-container path.leaflet-interactive,
+    .leaflet-container path.leaflet-interactive:focus,
+    .leaflet-container path.leaflet-interactive:focus-visible {
+      outline: none !important;
+    }
+    .leaflet-container { -webkit-tap-highlight-color: transparent; }
+  </style>
+</head>
+
+<body>
+<header class="topbar">
+  <!-- Clickable brand: reset -->
+  <div class="brand-btn brand-static">
+    <!-- Globe icon (inline SVG, no libs) -->
+    <svg class="brand-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10Z" stroke="#111827" stroke-width="1.6"/>
+      <path d="M2.5 12h19" stroke="#111827" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M12 2c3.2 3.4 3.2 16.6 0 20" stroke="#111827" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M12 2c-3.2 3.4-3.2 16.6 0 20" stroke="#111827" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+
+    <div class="brand">
+      <div class="brand-title">GeoLingo</div>
+      <div class="brand-subtitle">Explore languages across the globe</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="panel">
+    <label for="langInput">Language Input</label>
+
+    <div class="tag-input-wrap">
+      <input id="langInput" type="text" placeholder="Search for a language" autocomplete="off"/>
+
+      <div id="suggest" class="suggest"></div>
+      <div id="tags" class="tags"></div>
+    </div>
+
+    <div class="btn-row">
+      <button id="clear" class="primary" type="button">Reset</button>
+    </div>
+
+    <div class="stat" id="stat">Loading…</div>
+
+    <div class="hint-text">
+      Hover over a country to see details below.
+    </div>
+
+    <div id="fixedTooltip" class="fixed-tooltip hidden">
+      <div class="card" id="fixedTooltipCard"></div>
+    </div>
+  </aside>
+
+  <main class="map-wrap">
+    <div id="map"></div>
+  </main>
+</div>
+
+<script>
+  // ====== Languages list from server ======
+  const KNOWN_LANGUAGES = [
+    {% for l in known_languages %}
+      {{ l|tojson }},
+    {% endfor %}
+  ];
+
+  // ====== State ======
+  let selectedLanguages = [];
+  let activeSuggestIndex = -1;
+  let lastSuggest = [];
+
+  // ====== Elements ======
+  const inputEl = document.getElementById('langInput');
+  const suggestEl = document.getElementById('suggest');
+  const tagsEl = document.getElementById('tags');
+  const statEl = document.getElementById('stat');
+  const clearBtn = document.getElementById('clear');
+{#  const brandResetBtn = document.getElementById('brandReset');#}
+
+  const fixedTooltip = document.getElementById('fixedTooltip');
+  const fixedTooltipCard = document.getElementById('fixedTooltipCard');
+
+  function showCountryCard(html) {
+    fixedTooltipCard.innerHTML = html;
+    fixedTooltip.classList.remove('hidden');
+  }
+  function hideCountryCard() {
+    fixedTooltip.classList.add('hidden');
+    fixedTooltipCard.innerHTML = "";
+  }
+
+  function normalize(s) {
+    return (s || "").trim().toLowerCase();
+  }
+
+  function renderTags() {
+    tagsEl.innerHTML = "";
+    selectedLanguages.forEach((lang) => {
+      const b = document.createElement('div');
+      b.className = 'tag';
+      b.title = 'Click to remove';
+      b.innerHTML = `<span>${lang}</span> <span class="x">×</span>`;
+      b.addEventListener('click', () => {
+        selectedLanguages = selectedLanguages.filter(x => normalize(x) !== normalize(lang));
+        renderTags();
+        refreshCoverage();
+      });
+      tagsEl.appendChild(b);
+    });
+  }
+
+  function openSuggest(items) {
+    lastSuggest = items;
+    activeSuggestIndex = items.length ? 0 : -1;
+
+    if (!items.length) {
+      suggestEl.classList.remove('open');
+      suggestEl.innerHTML = "";
+      return;
+    }
+
+    suggestEl.innerHTML = items.map((x, i) => `
+      <div class="suggest-item ${i === activeSuggestIndex ? 'active' : ''}" data-i="${i}">
+        <div>${x}</div>
+        <div class="hint">Enter / click</div>
+      </div>
+    `).join("");
+
+    suggestEl.classList.add('open');
+
+    suggestEl.querySelectorAll('.suggest-item').forEach(el => {
+      el.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        const idx = Number(el.getAttribute('data-i'));
+        addLanguage(items[idx]);
+      });
+      el.addEventListener('mouseenter', () => {
+        const idx = Number(el.getAttribute('data-i'));
+        activeSuggestIndex = idx;
+        syncSuggestActive();
+      });
+    });
+  }
+
+  function syncSuggestActive() {
+    const nodes = suggestEl.querySelectorAll('.suggest-item');
+    nodes.forEach((n, i) => n.classList.toggle('active', i === activeSuggestIndex));
+  }
+
+  function closeSuggest() {
+    suggestEl.classList.remove('open');
+    suggestEl.innerHTML = "";
+    lastSuggest = [];
+    activeSuggestIndex = -1;
+  }
+
+  function suggestFor(query) {
+    const q = normalize(query);
+    if (!q) return [];
+
+    const chosen = new Set(selectedLanguages.map(normalize));
+    const matches = [];
+
+    for (const lang of KNOWN_LANGUAGES) {
+      const ln = normalize(lang);
+      if (chosen.has(ln)) continue;
+      if (!ln.includes(q)) continue;
+      matches.push({ lang, score: ln.startsWith(q) ? 0 : 1 });
+    }
+
+    matches.sort((a, b) => a.score - b.score || a.lang.localeCompare(b.lang));
+    return matches.slice(0, 12).map(x => x.lang);
+  }
+
+  function addLanguage(lang) {
+    if (!lang) return;
+    const n = normalize(lang);
+    if (!n) return;
+
+    const exists = selectedLanguages.some(x => normalize(x) === n);
+    if (!exists) selectedLanguages.push(lang);
+
+    inputEl.value = "";
+    closeSuggest();
+    renderTags();
+    refreshCoverage();
+  }
+
+  function removeLastTag() {
+    if (!selectedLanguages.length) return;
+    selectedLanguages.pop();
+    renderTags();
+    refreshCoverage();
+  }
+
+  // ====== Coverage API + map state ======
+  let geoLayer = null;
+  let coveredIso3 = new Set();
+  let countryInfoByIso3 = {};
+  let totalCountriesOnMap = 0;
+
+  function fmtInt(x) {
+    try { return new Intl.NumberFormat('en-US').format(x); }
+    catch { return String(x); }
+  }
+
+  function setStatsEmpty() {
+    statEl.innerHTML = `
+      <div><strong>Covered countries:</strong> 0 / ${totalCountriesOnMap} (0%)</div>
+      <div><strong>Total population:</strong> 0</div>
+      <div><strong>Speakers (official language):</strong> 0</div>
+    `;
+  }
+
+  async function refreshCoverage() {
+    if (!selectedLanguages.length) {
+      coveredIso3 = new Set();
+      if (geoLayer) geoLayer.setStyle(styleFeature);
+      setStatsEmpty();
+      return;
+    }
+
+    const res = await fetch('/api/coverage', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ languages: selectedLanguages })
+    });
+    const data = await res.json();
+
+    coveredIso3 = new Set(data.covered_iso_a3 || []);
+    if (geoLayer) geoLayer.setStyle(styleFeature);
+
+    const pct = totalCountriesOnMap ? Math.round((data.covered_count / totalCountriesOnMap) * 1000) / 10 : 0;
+
+    statEl.innerHTML = `
+      <div><strong>Covered countries:</strong> ${data.covered_count} / ${totalCountriesOnMap} (${pct}%)</div>
+      <div><strong>Total population:</strong> ${fmtInt(data.covered_population || 0)}</div>
+      <div><strong>Speakers (official language):</strong> ${fmtInt(data.covered_speakers_in_countries || 0)}</div>
+      ${data.unknown_languages?.length
+        ? `<div class="warn" style="margin-top:8px;">Unknown languages: ${data.unknown_languages.join(', ')}</div>`
+        : ``}
+    `;
+  }
+
+  // ====== Reset handler (brand + button) ======
+  function resetAll() {
+    selectedLanguages = [];
+    inputEl.value = "";
+    renderTags();
+    closeSuggest();
+    hideCountryCard();
+    refreshCoverage();
+  }
+
+  clearBtn.addEventListener('click', resetAll);
+{#  brandResetBtn.addEventListener('click', resetAll);#}
+
+  // ====== Input handlers ======
+  inputEl.addEventListener('input', () => openSuggest(suggestFor(inputEl.value)));
+
+  inputEl.addEventListener('keydown', (e) => {
+    const isOpen = suggestEl.classList.contains('open');
+
+    if (e.key === 'Backspace' && inputEl.value.trim() === '') {
+      removeLastTag();
+      closeSuggest();
+      return;
+    }
+
+    if (!isOpen) {
+      if (e.key === 'Enter') {
+        const raw = inputEl.value.trim();
+        if (!raw) return;
+
+        const exact = KNOWN_LANGUAGES.find(l => normalize(l) === normalize(raw));
+        if (exact) {
+          e.preventDefault();
+          addLanguage(exact);
+        } else {
+          const items = suggestFor(raw);
+          if (items.length) {
+            e.preventDefault();
+            addLanguage(items[0]);
+          }
+        }
+      }
+      return;
+    }
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeSuggestIndex = Math.min(activeSuggestIndex + 1, lastSuggest.length - 1);
+      syncSuggestActive();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeSuggestIndex = Math.max(activeSuggestIndex - 1, 0);
+      syncSuggestActive();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const pick = lastSuggest[activeSuggestIndex];
+      if (pick) addLanguage(pick);
+    } else if (e.key === 'Escape') {
+      closeSuggest();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!suggestEl.contains(e.target) && e.target !== inputEl) closeSuggest();
+  });
+
+  // ====== Map ======
+  const map = L.map('map', {
+    worldCopyJump: true,
+    zoomControl: true,
+    preferCanvas: true,
+    zoomSnap: 0.25,
+    zoomDelta: 0.25,
+    maxZoom: 8,
+    keyboard: false
+  });
+
+  const LAT_LIMIT = 85;
+  const maxBounds = L.latLngBounds(
+    L.latLng(-LAT_LIMIT, -1e7),
+    L.latLng( LAT_LIMIT,  1e7)
+  );
+  map.setMaxBounds(maxBounds);
+  map.options.maxBoundsViscosity = 1.0;
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    subdomains: 'abcd',
+    maxZoom: 20,
+    attribution: '&copy; OpenStreetMap &copy; CARTO'
+  }).addTo(map);
+
+  const WORLD_GEOJSON_URL = '/static/world_50m.geojson';
+  const WORLD_VIEW_BOUNDS = L.latLngBounds(
+    L.latLng(-55, -180),
+    L.latLng( 78,  180)
+  );
+
+  function applyMinZoomToAvoidBands() {
+    const minZ = map.getBoundsZoom(WORLD_VIEW_BOUNDS, true, [10, 10]) - 1.0;
+    map.setMinZoom(minZ);
+    if (map.getZoom() < minZ) map.setZoom(minZ);
+  }
+
+  applyMinZoomToAvoidBands();
+  map.fitBounds(WORLD_VIEW_BOUNDS, { padding: [10, 10] });
+  window.addEventListener('resize', applyMinZoomToAvoidBands);
+
+  function pickCode(p, keys) {
+      for (const k of keys) {
+        const v = (p[k] || "").toString().trim();
+        if (v && v !== "-99" && v !== "99") return v;
+      }
+      return "";
+    }
+
+  function getIsoA3(feature) {
+    const p = feature.properties || {};
+    return pickCode(p, ["ADM0_A3", "ISO_A3", "SOV_A3", "WB_A3", "GU_A3", "SU_A3"]);
+  }
+
+  function getName(feature) {
+    const p = feature.properties || {};
+    return (p.ADMIN || p.NAME_EN || p.NAME || p.SOVEREIGNT || "").toString();
+  }
+
+  function getIsoA2(feature, iso3) {
+    const p = feature.properties || {};
+    const fromFeature = (p.ISO_A2 || "").toString().trim();
+    if (fromFeature && fromFeature !== "-99") return fromFeature;
+    const d = countryInfoByIso3[iso3];
+    return d && d.iso_a2 ? d.iso_a2 : "";
+  }
+
+  function isCovered(feature) {
+    const iso3 = getIsoA3(feature);
+    return iso3 ? coveredIso3.has(iso3) : false;
+  }
+
+  function styleFeature(feature) {
+      const covered = isCovered(feature);
+
+      return {
+        // граница
+        weight: covered ? 0.9 : 0,        // ← 0 = границы нет
+        opacity: covered ? 0.55 : 0,      // ← полностью прозрачная
+
+        // заливка
+        fillOpacity: covered ? 0.16 : 0.00 // ← вообще без заливки, пока не выбрана
+      };
+    }
+
+
+  async function loadCountryInfo() {
+    const res = await fetch('/api/country_info');
+    const data = await res.json();
+    countryInfoByIso3 = data.countries_by_iso_a3 || {};
+  }
+
+  async function loadWorld() {
+    const res = await fetch(WORLD_GEOJSON_URL);
+    const geojson = await res.json();
+    totalCountriesOnMap = (geojson.features || []).length;
+
+    geoLayer = L.geoJSON(geojson, {
+      style: styleFeature,
+      onEachFeature: (feature, layer) => {
+        layer.on('mouseover', () => {
+          const iso3 = getIsoA3(feature);
+          const info = iso3 ? countryInfoByIso3[iso3] : null;
+
+          const name = info ? info.name : getName(feature);
+          const iso2 = getIsoA2(feature, iso3).toLowerCase();
+          const flagHtml =
+            iso2 && /^[a-z]{2}$/.test(iso2)
+              ? `<span class="flag"><span class="fi fi-${iso2}"></span></span>`
+              : "";
+
+          const langs = Array.isArray(info?.official_languages) ? info.official_languages : [];
+          const pop = info?.population || 0;
+          const speakersByLang = info?.speakers_by_language || {};
+
+          const langsHtml = (langs.length ? langs : ["n/a"]).map(l => {
+            const spk = speakersByLang[l] ?? 0;
+            return `<div><strong>${l}</strong>: ${fmtInt(spk)}</div>`;
+          }).join("");
+
+          const cardHtml = `
+            <div style="display:flex; gap:14px; align-items:center;">
+              <div style="flex:0 0 auto;">${flagHtml}</div>
+              <div style="flex:1; min-width:0;">
+                <div style="font-weight:800; font-size:15px; margin-bottom:6px;">${name}</div>
+                <div style="font-size:13px; line-height:1.35;">
+                  <div style="margin-bottom:6px;"><strong>Official languages:</strong></div>
+                  <div>${langsHtml}</div>
+                  <div style="margin-top:8px;"><strong>Population:</strong> ${fmtInt(pop)}</div>
+                </div>
+              </div>
+            </div>
+          `;
+
+          showCountryCard(cardHtml);
+        });
+
+        layer.on('mouseout', () => {
+          geoLayer.resetStyle(layer);
+          hideCountryCard();
+        });
+
+        // prevent focus outline on click
+        layer.on('add', () => {
+          const el = layer.getElement && layer.getElement();
+          if (el) el.setAttribute('tabindex', '-1');
+        });
+      }
+    }).addTo(map);
+
+    setStatsEmpty();
+  }
+
+  (async () => {
+    await loadCountryInfo();
+    await loadWorld();
+  })();
+</script>
+</body>
+</html>
