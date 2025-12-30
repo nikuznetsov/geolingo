@@ -3170,8 +3170,12 @@
       "name": "Australia",
       "iso_a3": "AUS",
       "iso_a2": "AU",
-      "official_languages": [],
-      "speakers_by_language": {},
+      "official_languages": [
+        "English"
+      ],
+      "speakers_by_language": {
+        "English": 27614411,
+      },
       "population": 27614411
     },
     "IOA": {
@@ -3369,4 +3373,5 @@
       "population": 10643
     }
   }
+
 }
