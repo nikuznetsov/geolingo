@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 
 
 BASE_DIR = Path(__file__).parent
-DATA_PATH = BASE_DIR / "data" / "world_data_rich.json"
+DATA_PATH = BASE_DIR / "data" / "world_data.json"
 
 app = FastAPI(title="World Languages Map (Natural Earth full coverage)")
 templates = Jinja2Templates(directory=str(BASE_DIR / "templates"))

@@ -6,438 +6,412 @@
       "iso_a3": "ZWE",
       "iso_a2": "ZW",
       "official_languages": [
+        "Chewa",
+        "Chibarwe",
         "English",
-        "Indonesian",
-        "Spanish"
+        "Kalanga",
+        "Koisan",
+        "Nambya",
+        "Ndau",
+        "Ndebele",
+        "Shangani",
+        "Shona",
+        "sign language",
+        "Sotho",
+        "Tonga",
+        "Tswana",
+        "Venda",
+        "Xhosa"
       ],
       "speakers_by_language": {
-        "English": 14375903,
-        "Indonesian": 11627569,
-        "Spanish": 14587315
+        "Chewa": 9180,
+        "Chibarwe": 9180,
+        "English": 514,
+        "Kalanga": 686,
+        "Koisan": 9180,
+        "Nambya": 9180,
+        "Ndau": 4630,
+        "Ndebele": 197,
+        "Shangani": 1372,
+        "Shona": 139,
+        "sign language": 9180,
+        "Sotho": 9180,
+        "Tonga": 2915,
+        "Tswana": 9180,
+        "Venda": 858,
+        "Xhosa": 9180
       },
-      "population": 71211908
+      "population": 15178979
     },
     "ZMB": {
       "name": "Zambia",
       "iso_a3": "ZMB",
       "iso_a2": "ZM",
       "official_languages": [
-        "Russian",
-        "Thai",
-        "Japanese"
+        "English"
       ],
       "speakers_by_language": {
-        "Russian": 27871844,
-        "Thai": 7192734,
-        "Japanese": 29370332
+        "English": 372536
       },
-      "population": 117154383
+      "population": 21913874
     },
     "YEM": {
       "name": "Yemen",
       "iso_a3": "YEM",
       "iso_a2": "YE",
       "official_languages": [
-        "Ukrainian"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Ukrainian": 151992670
+        "Arabic": 41773878
       },
-      "population": 214074184
+      "population": 41773878
     },
     "VNM": {
       "name": "Vietnam",
       "iso_a3": "VNM",
       "iso_a2": "VN",
       "official_languages": [
-        "Thai",
-        "Hebrew"
+        "Vietnamese"
       ],
       "speakers_by_language": {
-        "Thai": 22004704,
-        "Hebrew": 32384283
+        "Vietnamese": 101598527
       },
-      "population": 69729471
+      "population": 101598527
     },
     "VEN": {
       "name": "Venezuela",
       "iso_a3": "VEN",
       "iso_a2": "VE",
       "official_languages": [
-        "Greek",
-        "Hebrew"
+        "Spanish",
+        "Indigenous languages (official for Indigenous peoples)"
       ],
       "speakers_by_language": {
-        "Greek": 40041527,
-        "Hebrew": 25860154
+        "Spanish": 28516896,
+        "Indigenous languages (official for Indigenous peoples)": 724592
       },
-      "population": 78454383
+      "population": 28516896
     },
     "VAT": {
       "name": "Vatican",
       "iso_a3": "VAT",
       "iso_a2": "VA",
       "official_languages": [
-        "Romanian",
-        "German",
-        "Polish"
+        "Italian"
       ],
       "speakers_by_language": {
-        "Romanian": 9725059,
-        "German": 28427096,
-        "Polish": 32167504
+        "Italian": 882
       },
-      "population": 90153409
+      "population": 882
     },
     "VUT": {
       "name": "Vanuatu",
       "iso_a3": "VUT",
       "iso_a2": "VU",
       "official_languages": [
-        "Korean",
-        "Swahili"
+        "Bislama",
+        "English",
+        "French"
       ],
       "speakers_by_language": {
-        "Korean": 39887692,
-        "Swahili": 14153698
+        "Bislama": 48325,
+        "English": 7040,
+        "French": 2681
       },
-      "population": 85779985
+      "population": 335169
     },
     "UZB": {
       "name": "Uzbekistan",
       "iso_a3": "UZB",
       "iso_a2": "UZ",
       "official_languages": [
-        "Romanian",
-        "Hindi",
-        "Turkish"
+        "Uzbek"
       ],
       "speakers_by_language": {
-        "Romanian": 4369740,
-        "Hindi": 2077417,
-        "Turkish": 6733700
+        "Uzbek": 37356800
       },
-      "population": 20278242
+      "population": 37356800
     },
     "URY": {
       "name": "Uruguay",
       "iso_a3": "URY",
       "iso_a2": "UY",
       "official_languages": [
-        "Swahili",
-        "Thai"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Swahili": 120004398,
-        "Thai": 33601232
+        "Spanish": 3384688
       },
-      "population": 174551853
+      "population": 3384688
     },
     "FSM": {
       "name": "Federated States of Micronesia",
       "iso_a3": "FSM",
       "iso_a2": "FM",
       "official_languages": [
-        "Swedish",
-        "English",
-        "Arabic"
+        "English"
       ],
       "speakers_by_language": {
-        "Swedish": 29840644,
-        "English": 53286865,
-        "Arabic": 12788848
+        "English": 113683
       },
-      "population": 168274312
+      "population": 113683
     },
     "MHL": {
       "name": "Marshall Islands",
       "iso_a3": "MHL",
       "iso_a2": "MH",
       "official_languages": [
-        "Spanish",
-        "Korean",
-        "Swedish"
+        "Marshallese",
+        "English"
       ],
       "speakers_by_language": {
-        "Spanish": 9274977,
-        "Korean": 41737397,
-        "Swedish": 17004125
+        "Marshallese": 35629,
+        "English": 35629
       },
-      "population": 117269826
+      "population": 36281
     },
     "MNP": {
       "name": "Northern Mariana Islands",
       "iso_a3": "MNP",
       "iso_a2": "MP",
       "official_languages": [
-        "Norwegian",
-        "Polish"
+        "English",
+        "Chamorro",
+        "Carolinian"
       ],
       "speakers_by_language": {
-        "Norwegian": 23501293,
-        "Polish": 15414827
+        "English": 7350,
+        "Chamorro": 10499,
+        "Carolinian": 4393
       },
-      "population": 48044593
+      "population": 43541
     },
     "VIR": {
       "name": "United States Virgin Islands",
       "iso_a3": "VIR",
       "iso_a2": "VI",
       "official_languages": [
-        "Hebrew",
-        "Arabic"
+        "English"
       ],
       "speakers_by_language": {
-        "Hebrew": 45331021,
-        "Arabic": 62068629
+        "English": 84138
       },
-      "population": 167811954
+      "population": 84138
     },
     "GUM": {
       "name": "Guam",
       "iso_a3": "GUM",
       "iso_a2": "GU",
       "official_languages": [
-        "Dutch",
-        "Hindi",
-        "Italian"
+        "English",
+        "Chamorro"
       ],
       "speakers_by_language": {
-        "Dutch": 5636652,
-        "Hindi": 3539293,
-        "Italian": 10093541
+        "English": 153836,
+        "Chamorro": 21390
       },
-      "population": 22939865
+      "population": 153836
     },
     "ASM": {
       "name": "American Samoa",
       "iso_a3": "ASM",
       "iso_a2": "AS",
       "official_languages": [
-        "German"
+        "Samoan",
+        "English"
       ],
       "speakers_by_language": {
-        "German": 76527856
+        "Samoan": 43795,
+        "English": 1640
       },
-      "population": 98112637
+      "population": 49710
     },
     "PRI": {
       "name": "Puerto Rico",
       "iso_a3": "PRI",
       "iso_a2": "PR",
       "official_languages": [
-        "Arabic"
+        "Spanish",
+        "English"
       ],
       "speakers_by_language": {
-        "Arabic": 41921401
+        "Spanish": 3030000,
+        "English": 180000
       },
-      "population": 43217940
+      "population": 3235289
     },
     "USA": {
       "name": "United States of America",
       "iso_a3": "USA",
       "iso_a2": "US",
       "official_languages": [
-        "Persian",
-        "Swahili"
+        "English"
       ],
       "speakers_by_language": {
-        "Persian": 79361470,
-        "Swahili": 55427060
+        "English": 272600000
       },
-      "population": 170618393
+      "population": 348119779
     },
     "SGS": {
       "name": "South Georgia and the Islands",
       "iso_a3": "SGS",
       "iso_a2": "GS",
       "official_languages": [
-        "Italian",
-        "Arabic"
+        "English"
       ],
       "speakers_by_language": {
-        "Italian": 13496874,
-        "Arabic": 2851453
+        "English": 0
       },
-      "population": 23025813
+      "population": 0
     },
     "IOT": {
       "name": "British Indian Ocean Territory",
       "iso_a3": "IOT",
       "iso_a2": "IO",
       "official_languages": [
-        "Arabic",
-        "Thai"
+        "English"
       ],
       "speakers_by_language": {
-        "Arabic": 46001673,
-        "Thai": 68551515
+        "English": 4200
       },
-      "population": 190921981
+      "population": 4200
     },
     "SHN": {
       "name": "Saint Helena",
       "iso_a3": "SHN",
       "iso_a2": "SH",
       "official_languages": [
-        "Arabic"
+        "English"
       ],
       "speakers_by_language": {
-        "Arabic": 30654082
+        "English": 5177
       },
-      "population": 31279676
+      "population": 5177
     },
     "PCN": {
       "name": "Pitcairn Islands",
       "iso_a3": "PCN",
       "iso_a2": "PN",
       "official_languages": [
-        "Hebrew",
-        "Danish",
-        "Korean"
+        "English"
       ],
       "speakers_by_language": {
-        "Hebrew": 19590139,
-        "Danish": 35535602,
-        "Korean": 25057157
+        "English": 50
       },
-      "population": 145787089
+      "population": 50
     },
     "AIA": {
       "name": "Anguilla",
       "iso_a3": "AIA",
       "iso_a2": "AI",
       "official_languages": [
-        "Ukrainian",
-        "Dutch",
-        "Russian"
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 12868363,
-        "Dutch": 21993202,
-        "Russian": 8656900
+        "English": 11329
       },
-      "population": 46794049
+      "population": 14791
     },
     "FLK": {
       "name": "Falkland Islands",
       "iso_a3": "FLK",
       "iso_a2": "FK",
       "official_languages": [
-        "Bengali",
-        "Spanish"
+        "English"
       ],
       "speakers_by_language": {
-        "Bengali": 54789057,
-        "Spanish": 36216496
+        "English": 3469
       },
-      "population": 97855434
+      "population": 3469
     },
     "CYM": {
       "name": "Cayman Islands",
       "iso_a3": "CYM",
       "iso_a2": "KY",
       "official_languages": [
-        "Polish",
-        "Italian",
-        "Romanian"
+        "English"
       ],
       "speakers_by_language": {
-        "Polish": 82215921,
-        "Italian": 46733260,
-        "Romanian": 9519739
+        "English": 67918
       },
-      "population": 157351046
+      "population": 76930
     },
     "BMU": {
       "name": "Bermuda",
       "iso_a3": "BMU",
       "iso_a2": "BM",
       "official_languages": [
-        "Swahili",
-        "Bengali",
-        "Greek"
+        "English"
       ],
       "speakers_by_language": {
-        "Swahili": 31052928,
-        "Bengali": 25275639,
-        "Greek": 15165385
+        "English": 64515
       },
-      "population": 123265435
+      "population": 64515
     },
     "VGB": {
       "name": "British Virgin Islands",
       "iso_a3": "VGB",
       "iso_a2": "VG",
       "official_languages": [
-        "German",
         "English"
       ],
       "speakers_by_language": {
-        "German": 18144764,
-        "English": 48386039
+        "English": 39369
       },
-      "population": 77361399
+      "population": 39369
     },
     "TCA": {
       "name": "Turks and Caicos Islands",
       "iso_a3": "TCA",
       "iso_a2": "TC",
       "official_languages": [
-        "Swahili",
-        "German"
+        "English"
       ],
       "speakers_by_language": {
-        "Swahili": 62496844,
-        "German": 28123581
+        "English": 46855
       },
-      "population": 122460034
+      "population": 46855
     },
     "MSR": {
       "name": "Montserrat",
       "iso_a3": "MSR",
       "iso_a2": "MS",
       "official_languages": [
-        "English",
-        "Polish",
-        "Finnish"
+        "English"
       ],
       "speakers_by_language": {
-        "English": 63597966,
-        "Polish": 19809202,
-        "Finnish": 94875655
+        "English": 4359
       },
-      "population": 217418077
+      "population": 4359
     },
     "JEY": {
       "name": "Jersey",
       "iso_a3": "JEY",
       "iso_a2": "JE",
       "official_languages": [
-        "Persian",
-        "Hungarian",
-        "French"
+        "English",
+        "French",
+        "Jèrriais"
       ],
       "speakers_by_language": {
-        "Persian": 19069518,
-        "Hungarian": 23973109,
-        "French": 24517954
+        "English": 85792,
+        "French": 15114,
+        "Jèrriais": 2874
       },
-      "population": 82390953
+      "population": 104540
     },
     "GGY": {
       "name": "Guernsey",
       "iso_a3": "GGY",
       "iso_a2": "GG",
       "official_languages": [
-        "Hindi",
-        "Japanese"
+        "English"
       ],
       "speakers_by_language": {
-        "Hindi": 65103365,
-        "Japanese": 65103365
+        "English": 64477
       },
-      "population": 151403175
+      "population": 64477
     },
     "IMN": {
       "name": "Isle of Man",
@@ -445,2333 +419,2336 @@
       "iso_a2": "IM",
       "official_languages": [
         "English",
-        "Persian"
+        "Manx"
       ],
       "speakers_by_language": {
-        "English": 91513539,
-        "Persian": 21023381
+        "English": 80781,
+        "Manx": 2023
       },
-      "population": 125041023
+      "population": 84098
     },
     "GBR": {
       "name": "United Kingdom",
       "iso_a3": "GBR",
       "iso_a2": "GB",
       "official_languages": [
-        "Bengali"
+        "Welsh",
+        "Scottish Gaelic",
+        "Irish"
       ],
       "speakers_by_language": {
-        "Bengali": 87588960
+        "Welsh": 538000,
+        "Scottish Gaelic": 57600,
+        "Irish": 71871
       },
-      "population": 156408858
+      "population": 69487000
     },
     "ARE": {
       "name": "United Arab Emirates",
       "iso_a3": "ARE",
       "iso_a2": "AE",
       "official_languages": [
-        "Portuguese",
-        "French"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Portuguese": 45372680,
-        "French": 13044646
+        "Arabic": 6570000
       },
-      "population": 99012418
+      "population": 11027129
     },
     "UKR": {
       "name": "Ukraine",
       "iso_a3": "UKR",
       "iso_a2": "UA",
       "official_languages": [
-        "Turkish",
-        "English",
-        "Arabic"
+        "Ukrainian"
       ],
       "speakers_by_language": {
-        "Turkish": 13167896,
-        "English": 29036899,
-        "Arabic": 20595941
+        "Ukrainian": 25831975
       },
-      "population": 83734315
+      "population": 38270000
     },
     "UGA": {
       "name": "Uganda",
       "iso_a3": "UGA",
       "iso_a2": "UG",
       "official_languages": [
-        "Swahili",
-        "Czech"
+        "English",
+        "Swahili"
       ],
       "speakers_by_language": {
-        "Swahili": 78986370,
-        "Czech": 48212460
+        "English": 17903113,
+        "Swahili": 2295271
       },
-      "population": 198748173
+      "population": 45905417
     },
     "TKM": {
       "name": "Turkmenistan",
       "iso_a3": "TKM",
       "iso_a2": "TM",
       "official_languages": [
-        "Turkish",
-        "French",
-        "Hindi"
+        "Turkmen"
       ],
       "speakers_by_language": {
-        "Turkish": 26026108,
-        "French": 31118173,
-        "Hindi": 26591895
+        "Turkmen": 7618847
       },
-      "population": 121356778
+      "population": 7618847
     },
     "TUR": {
       "name": "Turkey",
       "iso_a3": "TUR",
       "iso_a2": "TR",
       "official_languages": [
-        "Persian",
-        "Turkish",
-        "Arabic"
+        "Turkish"
       ],
       "speakers_by_language": {
-        "Persian": 12872629,
-        "Turkish": 13044264,
-        "Arabic": 7551944
+        "Turkish": 68784523
       },
-      "population": 35230355
+      "population": 85980654
     },
     "TUN": {
       "name": "Tunisia",
       "iso_a3": "TUN",
       "iso_a2": "TN",
       "official_languages": [
-        "Romanian",
-        "Japanese"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Romanian": 3267149,
-        "Japanese": 4051266
+        "Arabic": 12031057
       },
-      "population": 9889751
+      "population": 12277109
     },
     "TTO": {
       "name": "Trinidad and Tobago",
       "iso_a3": "TTO",
       "iso_a2": "TT",
       "official_languages": [
-        "Romanian",
-        "Czech",
-        "Finnish"
+        "English"
       ],
       "speakers_by_language": {
-        "Romanian": 37782328,
-        "Czech": 26738263,
-        "Finnish": 49988927
+        "English": 1511155
       },
-      "population": 148713661
+      "population": 1511155
     },
     "TON": {
       "name": "Tonga",
       "iso_a3": "TON",
       "iso_a2": "TO",
       "official_languages": [
-        "German",
-        "Arabic"
+        "Tongan",
+        "English"
       ],
       "speakers_by_language": {
-        "German": 24979626,
-        "Arabic": 38361571
+        "Tongan": 99400,
+        "English": 91500
       },
-      "population": 102163222
+      "population": 103742
     },
     "TGO": {
       "name": "Togo",
       "iso_a3": "TGO",
       "iso_a2": "TG",
       "official_languages": [
-        "Italian"
+        "French"
       ],
       "speakers_by_language": {
-        "Italian": 100994649
+        "French": 3999999
       },
-      "population": 106310157
+      "population": 9721608
     },
     "TLS": {
       "name": "East Timor",
       "iso_a3": "TLS",
       "iso_a2": "TL",
       "official_languages": [
-        "Norwegian",
-        "Czech"
+        "Tetum",
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Norwegian": 47895637,
-        "Czech": 65767144
+        "Tetum": 1309990,
+        "Portuguese": 86659
       },
-      "population": 124904155
+      "population": 1427237
     },
     "THA": {
       "name": "Thailand",
       "iso_a3": "THA",
       "iso_a2": "TH",
       "official_languages": [
-        "Hebrew"
+        "Thai"
       ],
       "speakers_by_language": {
-        "Hebrew": 23265507
+        "Thai": 70000000
       },
-      "population": 37525012
+      "population": 71593652
     },
     "TZA": {
       "name": "United Republic of Tanzania",
       "iso_a3": "TZA",
       "iso_a2": "TZ",
       "official_languages": [
-        "Greek",
-        "Turkish"
+        "Swahili",
+        "English"
       ],
       "speakers_by_language": {
-        "Greek": 72682224,
-        "Turkish": 78273165
+        "Swahili": 67018572,
+        "English": 7054587
       },
-      "population": 247467852
+      "population": 70545865
     },
     "TJK": {
       "name": "Tajikistan",
       "iso_a3": "TJK",
       "iso_a2": "TJ",
       "official_languages": [
-        "Portuguese",
-        "German"
+        "Tajik",
+        "Russian"
       ],
       "speakers_by_language": {
-        "Portuguese": 55106790,
-        "German": 29297281
+        "Tajik": 9091963,
+        "Russian": 539337
       },
-      "population": 102931794
+      "population": 10786734
     },
     "TWN": {
       "name": "Taiwan",
       "iso_a3": "TWN",
       "iso_a2": "CN-TW",
       "official_languages": [
-        "Spanish",
-        "Ukrainian",
-        "Korean"
+        "Mandarin Chinese",
+        "Taiwanese Hokkien",
+        "Taiwanese Hakka",
+        "Formosan (Indigenous) languages",
+        "Taiwan Sign Language"
       ],
       "speakers_by_language": {
-        "Spanish": 49789769,
-        "Ukrainian": 50695038,
-        "Korean": 71516215
+        "Mandarin Chinese": 15315595,
+        "Taiwanese Hokkien": 7314766,
+        "Taiwanese Hakka": 346692,
+        "Formosan (Indigenous) languages": 46226,
+        "Taiwan Sign Language": 0
       },
-      "population": 238890309
+      "population": 23065906
     },
     "SYR": {
       "name": "Syria",
       "iso_a3": "SYR",
       "iso_a2": "SY",
       "official_languages": [
-        "Ukrainian",
-        "Arabic",
-        "Turkish"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Ukrainian": 61957161,
-        "Arabic": 41547743,
-        "Turkish": 40818838
+        "Arabic": 21777336
       },
-      "population": 248834039
+      "population": 25620427
     },
     "CHE": {
       "name": "Switzerland",
       "iso_a3": "CHE",
       "iso_a2": "CH",
       "official_languages": [
-        "Bengali",
-        "Italian"
+        "German",
+        "French",
+        "Italian",
+        "Romansh"
       ],
       "speakers_by_language": {
-        "Bengali": 35209549,
-        "Italian": 25470738
+        "German": 5972274,
+        "French": 2081247,
+        "Italian": 723912,
+        "Romansh": 45245
       },
-      "population": 63873987
+      "population": 9048900
     },
     "SWE": {
       "name": "Sweden",
       "iso_a3": "SWE",
       "iso_a2": "SE",
       "official_languages": [
-        "Czech"
+        "Swedish",
+        "Finnish",
+        "Meänkieli",
+        "Romani Chib",
+        "Sami",
+        "Yiddish"
       ],
       "speakers_by_language": {
-        "Czech": 35780853
+        "Swedish": 9500000,
+        "Finnish": 250000,
+        "Meänkieli": 30000,
+        "Romani Chib": 11250,
+        "Sami": 5250,
+        "Yiddish": 1500
       },
-      "population": 54213414
+      "population": 10656633
     },
     "SWZ": {
       "name": "eSwatini",
       "iso_a3": "SWZ",
       "iso_a2": "SZ",
       "official_languages": [
-        "Swedish",
-        "Turkish"
+        "English",
+        "siSwati"
       ],
       "speakers_by_language": {
-        "Swedish": 5773873,
-        "Turkish": 12732133
+        "English": 125617,
+        "siSwati": 1193365
       },
-      "population": 21518612
+      "population": 1256174
     },
     "SUR": {
       "name": "Suriname",
       "iso_a3": "SUR",
       "iso_a2": "SR",
       "official_languages": [
-        "Hungarian",
-        "Polish"
+        "Dutch"
       ],
       "speakers_by_language": {
-        "Hungarian": 24457510,
-        "Polish": 51089022
+        "Dutch": 639850
       },
-      "population": 132537777
+      "population": 639850
     },
     "SDS": {
       "name": "South Sudan",
       "iso_a3": "SDS",
       "iso_a2": "SS",
       "official_languages": [
-        "Italian",
-        "Swahili"
+        "English"
       ],
       "speakers_by_language": {
-        "Italian": 138512321,
-        "Swahili": 69256161
+        "English": 330242
       },
-      "population": 244433509
+      "population": 12188788
     },
     "SDN": {
       "name": "Sudan",
       "iso_a3": "SDN",
       "iso_a2": "SD",
       "official_languages": [
-        "Ukrainian",
-        "Polish",
-        "French"
+        "Arabic",
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 72666342,
-        "Polish": 55455893,
-        "French": 9561362
+        "Arabic": 52443397,
+        "English": 2662868
       },
-      "population": 141941853
+      "population": 52443397
     },
     "LKA": {
       "name": "Sri Lanka",
       "iso_a3": "LKA",
       "iso_a2": "LK",
       "official_languages": [
-        "Hungarian",
-        "Romanian"
+        "Sinhala",
+        "Tamil"
       ],
       "speakers_by_language": {
-        "Hungarian": 107190832,
-        "Romanian": 78982719
+        "Sinhala": 20209639,
+        "Tamil": 6620390
       },
-      "population": 189973012
+      "population": 23229470
     },
     "ESP": {
       "name": "Spain",
       "iso_a3": "ESP",
       "iso_a2": "ES",
       "official_languages": [
-        "Dutch",
-        "Japanese",
-        "Greek"
+        "Spanish (Castilian)",
+        "Catalan",
+        "Valencian",
+        "Galician",
+        "Basque",
+        "Aranese (Occitan)"
       ],
       "speakers_by_language": {
-        "Dutch": 23306913,
-        "Japanese": 10876559,
-        "Greek": 34960371
+        "Spanish (Castilian)": 49077984,
+        "Catalan": 5500000,
+        "Valencian": 5500000,
+        "Galician": 2260000,
+        "Basque": 1029300,
+        "Aranese (Occitan)": 3000
       },
-      "population": 109752132
+      "population": 49077984
     },
     "KOR": {
       "name": "South Korea",
       "iso_a3": "KOR",
       "iso_a2": "KR",
       "official_languages": [
-        "Swedish"
+        "Korean"
       ],
       "speakers_by_language": {
-        "Swedish": 4924858
+        "Korean": 51806000
       },
-      "population": 5353107
+      "population": 51806000
     },
     "ZAF": {
       "name": "South Africa",
       "iso_a3": "ZAF",
       "iso_a2": "ZA",
       "official_languages": [
-        "Portuguese"
+        "Afrikaans",
+        "English",
+        "isiNdebele",
+        "isiXhosa",
+        "isiZulu",
+        "Sepedi",
+        "Sesotho",
+        "Setswana",
+        "siSwati",
+        "Tshivenda",
+        "Xitsonga",
+        "South African Sign Language"
       ],
       "speakers_by_language": {
-        "Portuguese": 4146123
+        "Afrikaans": 6578915,
+        "English": 5396393,
+        "isiNdebele": 1054468,
+        "isiXhosa": 10110483,
+        "isiZulu": 15134711,
+        "Sepedi": 6202750,
+        "Sesotho": 4838145,
+        "Setswana": 5148283,
+        "siSwati": 1736770,
+        "Tshivenda": 1550688,
+        "Xitsonga": 2915293,
+        "South African Sign Language": 12406
       },
-      "population": 4995330
+      "population": 62027503
     },
     "SOM": {
       "name": "Somalia",
       "iso_a3": "SOM",
       "iso_a2": "SO",
       "official_languages": [
-        "Vietnamese",
-        "Russian",
-        "Norwegian"
+        "Somali",
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Vietnamese": 19703842,
-        "Russian": 42884834,
-        "Norwegian": 60270579
+        "Somali": 18672002,
+        "Arabic": 2000000
       },
-      "population": 163812341
+      "population": 19654739
     },
     "SOL": {
       "name": "Somaliland",
       "iso_a3": "SOL",
       "iso_a2": "",
       "official_languages": [
-        "English"
+        "Somali",
+        "Arabic"
       ],
       "speakers_by_language": {
-        "English": 32967037
+        "Somali": 6200000,
+        "Arabic": 620000
       },
-      "population": 40203704
+      "population": 6200000
     },
     "SLB": {
       "name": "Solomon Islands",
       "iso_a3": "SLB",
       "iso_a2": "SB",
       "official_languages": [
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 87746814
+        "English": 107215
       },
-      "population": 121870576
+      "population": 714766
     },
     "SVK": {
       "name": "Slovakia",
       "iso_a3": "SVK",
       "iso_a2": "SK",
       "official_languages": [
-        "English"
+        "Slovak"
       ],
       "speakers_by_language": {
-        "English": 166822425
+        "Slovak": 4456102
       },
-      "population": 203441982
+      "population": 5413191
     },
     "SVN": {
       "name": "Slovenia",
       "iso_a3": "SVN",
       "iso_a2": "SI",
       "official_languages": [
-        "Swedish",
-        "Norwegian",
-        "Finnish"
+        "Slovene",
+        "Italian",
+        "Hungarian"
       ],
       "speakers_by_language": {
-        "Swedish": 49551545,
-        "Norwegian": 17696980,
-        "Finnish": 48034662
+        "Slovene": 1868946,
+        "Italian": 4262,
+        "Hungarian": 8523
       },
-      "population": 209605795
+      "population": 2130850
     },
     "SGP": {
       "name": "Singapore",
       "iso_a3": "SGP",
       "iso_a2": "SG",
       "official_languages": [
-        "Thai"
+        "English",
+        "Malay",
+        "Mandarin",
+        "Tamil"
       ],
       "speakers_by_language": {
-        "Thai": 138012682
+        "English": 1735242,
+        "Malay": 233779,
+        "Mandarin": 1075172,
+        "Tamil": 88059
       },
-      "population": 205989078
+      "population": 6110000
     },
     "SLE": {
       "name": "Sierra Leone",
       "iso_a3": "SLE",
       "iso_a2": "SL",
       "official_languages": [
-        "Danish",
-        "Vietnamese",
-        "Italian"
+        "English"
       ],
       "speakers_by_language": {
-        "Danish": 16670491,
-        "Vietnamese": 2985759,
-        "Italian": 18909813
+        "English": 8897545
       },
-      "population": 68867970
+      "population": 8897545
     },
     "SYC": {
       "name": "Seychelles",
       "iso_a3": "SYC",
       "iso_a2": "SC",
       "official_languages": [
-        "French",
-        "Italian",
-        "Russian"
+        "Seychellois Creole",
+        "English",
+        "French"
       ],
       "speakers_by_language": {
-        "French": 17432458,
-        "Italian": 43122396,
-        "Russian": 62389852
+        "Seychellois Creole": 118300,
+        "English": 6772,
+        "French": 930
       },
-      "population": 161769350
+      "population": 132779
     },
     "SRB": {
       "name": "Republic of Serbia",
       "iso_a3": "SRB",
       "iso_a2": "RS",
       "official_languages": [
-        "Norwegian"
+        "Serbian",
+        "Hungarian",
+        "Slovak",
+        "Romanian",
+        "Croatian",
+        "Rusyn"
       ],
       "speakers_by_language": {
-        "Norwegian": 128547123
+        "Serbian": 5607558,
+        "Hungarian": 170875,
+        "Slovak": 38584,
+        "Romanian": 21477,
+        "Croatian": 12048,
+        "Rusyn": 8725
       },
-      "population": 225521270
+      "population": 6647003
     },
     "SEN": {
       "name": "Senegal",
       "iso_a3": "SEN",
       "iso_a2": "SN",
       "official_languages": [
-        "Polish",
-        "English",
-        "Swahili"
+        "French"
       ],
       "speakers_by_language": {
-        "Polish": 11005222,
-        "English": 80338124,
-        "Swahili": 18708880
+        "French": 5130000
       },
-      "population": 189745218
+      "population": 18501984
     },
     "SAU": {
       "name": "Saudi Arabia",
       "iso_a3": "SAU",
       "iso_a2": "SA",
       "official_languages": [
-        "Vietnamese"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Vietnamese": 102550719
+        "Arabic": 35300280
       },
-      "population": 138582054
+      "population": 35300280
     },
     "STP": {
       "name": "São Tomé and Principe",
       "iso_a3": "STP",
       "iso_a2": "ST",
       "official_languages": [
-        "Swahili",
-        "Japanese"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Swahili": 50787177,
-        "Japanese": 63001815
+        "Portuguese": 238675
       },
-      "population": 158040268
+      "population": 242555
     },
     "SMR": {
       "name": "San Marino",
       "iso_a3": "SMR",
       "iso_a2": "SM",
       "official_languages": [
-        "Spanish",
-        "Ukrainian"
+        "Italian"
       ],
       "speakers_by_language": {
-        "Spanish": 111939390,
-        "Ukrainian": 24602064
+        "Italian": 33572
       },
-      "population": 235416301
+      "population": 33572
     },
     "WSM": {
       "name": "Samoa",
       "iso_a3": "WSM",
       "iso_a2": "WS",
       "official_languages": [
-        "Korean"
+        "Samoan",
+        "English"
       ],
       "speakers_by_language": {
-        "Korean": 41161986
+        "Samoan": 214179,
+        "English": 15820
       },
-      "population": 56386283
+      "population": 219306
     },
     "VCT": {
       "name": "Saint Vincent and the Grenadines",
       "iso_a3": "VCT",
       "iso_a2": "VC",
       "official_languages": [
-        "Portuguese"
+        "English"
       ],
       "speakers_by_language": {
-        "Portuguese": 137001246
+        "English": 99924
       },
-      "population": 177923697
+      "population": 99924
     },
     "LCA": {
       "name": "Saint Lucia",
       "iso_a3": "LCA",
       "iso_a2": "LC",
       "official_languages": [
-        "Ukrainian",
-        "Japanese",
-        "Hindi"
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 16929195,
-        "Japanese": 40206839,
-        "Hindi": 46026252
+        "English": 180149
       },
-      "population": 177866011
+      "population": 180149
     },
     "KNA": {
       "name": "Saint Kitts and Nevis",
       "iso_a3": "KNA",
       "iso_a2": "KN",
       "official_languages": [
-        "Polish",
-        "Dutch"
+        "English"
       ],
       "speakers_by_language": {
-        "Polish": 13950704,
-        "Dutch": 30047673
+        "English": 46922
       },
-      "population": 78568531
+      "population": 46922
     },
     "RWA": {
       "name": "Rwanda",
       "iso_a3": "RWA",
       "iso_a2": "RW",
       "official_languages": [
-        "Spanish",
-        "Hindi"
+        "Kinyarwanda",
+        "English",
+        "French",
+        "Swahili"
       ],
       "speakers_by_language": {
-        "Spanish": 35885856,
-        "Hindi": 43521145
+        "Kinyarwanda": 13246394,
+        "English": 1750000,
+        "French": 679000,
+        "Swahili": 331000
       },
-      "population": 93420002
+      "population": 13246394
     },
     "RUS": {
       "name": "Russia",
       "iso_a3": "RUS",
       "iso_a2": "RU",
       "official_languages": [
-        "Czech"
+        "Russian"
       ],
       "speakers_by_language": {
-        "Czech": 198415885
+        "Russian": 125170000
       },
-      "population": 218039435
+      "population": 146028325
     },
     "ROU": {
       "name": "Romania",
       "iso_a3": "ROU",
       "iso_a2": "RO",
       "official_languages": [
-        "French"
+        "Romanian"
       ],
       "speakers_by_language": {
-        "French": 108256749
+        "Romanian": 17338973
       },
-      "population": 150356597
+      "population": 19036031
     },
     "QAT": {
       "name": "Qatar",
       "iso_a3": "QAT",
       "iso_a2": "QA",
       "official_languages": [
-        "Korean",
-        "Polish"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Korean": 26863566,
-        "Polish": 31900486
+        "Arabic": 342748
       },
-      "population": 63187153
+      "population": 3115889
     },
     "PRT": {
       "name": "Portugal",
       "iso_a3": "PRT",
       "iso_a2": "PT",
       "official_languages": [
-        "Arabic",
-        "Czech"
+        "Portuguese",
+        "Mirandese"
       ],
       "speakers_by_language": {
-        "Arabic": 51464923,
-        "Czech": 16424976
+        "Portuguese": 10276850,
+        "Mirandese": 3500
       },
-      "population": 72223297
+      "population": 10749635
     },
     "POL": {
       "name": "Poland",
       "iso_a3": "POL",
       "iso_a2": "PL",
       "official_languages": [
-        "Finnish",
-        "English"
+        "Polish"
       ],
       "speakers_by_language": {
-        "Finnish": 29591351,
-        "English": 14795676
+        "Polish": 36500000
       },
-      "population": 77871978
+      "population": 38140910
     },
     "PHL": {
       "name": "Philippines",
       "iso_a3": "PHL",
       "iso_a2": "PH",
       "official_languages": [
-        "Korean",
-        "Czech",
-        "Indonesian"
+        "Filipino",
+        "English"
       ],
       "speakers_by_language": {
-        "Korean": 3652791,
-        "Czech": 4992148,
-        "Indonesian": 4505112
+        "Filipino": 0,
+        "English": 0
       },
-      "population": 20546956
+      "population": 112729484
     },
     "PER": {
       "name": "Peru",
       "iso_a3": "PER",
       "iso_a2": "PE",
       "official_languages": [
-        "Korean",
-        "Hungarian"
+        "Spanish",
+        "Quechua",
+        "Aymara"
       ],
       "speakers_by_language": {
-        "Korean": 65591867,
-        "Hungarian": 136971253
+        "Spanish": 22209686,
+        "Quechua": 3735682,
+        "Aymara": 444389
       },
-      "population": 241146572
+      "population": 34350244
     },
     "PRY": {
       "name": "Paraguay",
       "iso_a3": "PRY",
       "iso_a2": "PY",
       "official_languages": [
-        "Hebrew"
+        "Spanish",
+        "Guaraní"
       ],
       "speakers_by_language": {
-        "Hebrew": 157875063
+        "Spanish": 3600000,
+        "Guaraní": 3700000
       },
-      "population": 185735369
+      "population": 6929153
     },
     "PNG": {
       "name": "Papua New Guinea",
       "iso_a3": "PNG",
       "iso_a2": "PG",
       "official_languages": [
+        "Tok Pisin",
         "English",
-        "Korean"
+        "Hiri Motu"
       ],
       "speakers_by_language": {
-        "English": 4338721,
-        "Korean": 15908648
+        "Tok Pisin": 5500000,
+        "English": 161853,
+        "Hiri Motu": 101854
       },
-      "population": 23008374
+      "population": 10185363
     },
     "PAN": {
       "name": "Panama",
       "iso_a3": "PAN",
       "iso_a2": "PA",
       "official_languages": [
-        "German",
-        "Turkish",
-        "English"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "German": 15822972,
-        "Turkish": 30790648,
-        "English": 16678269
+        "Spanish": 3327000
       },
-      "population": 113021232
+      "population": 4571189
     },
     "PLW": {
       "name": "Palau",
       "iso_a3": "PLW",
       "iso_a2": "PW",
       "official_languages": [
-        "Korean",
-        "Indonesian",
-        "Vietnamese"
+        "Palauan",
+        "English"
       ],
       "speakers_by_language": {
-        "Korean": 41454902,
-        "Indonesian": 41454902,
-        "Vietnamese": 50212982
+        "Palauan": 11521,
+        "English": 3378
       },
-      "population": 160388899
+      "population": 17663
     },
     "PAK": {
       "name": "Pakistan",
       "iso_a3": "PAK",
       "iso_a2": "PK",
       "official_languages": [
-        "English"
+        "Urdu",
+        "English",
+        "Sindhi"
       ],
       "speakers_by_language": {
-        "English": 35367040
+        "Urdu": 14704072,
+        "English": 0,
+        "Sindhi": 30259650
       },
-      "population": 56138160
+      "population": 207684626
     },
     "OMN": {
       "name": "Oman",
       "iso_a3": "OMN",
       "iso_a2": "OM",
       "official_languages": [
-        "Thai"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Thai": 46345457
+        "Arabic": 5592997
       },
-      "population": 48784692
+      "population": 5592997
     },
     "NOR": {
       "name": "Norway",
       "iso_a3": "NOR",
       "iso_a2": "",
       "official_languages": [
-        "Vietnamese"
+        "Norwegian (Bokmål)",
+        "Norwegian (Nynorsk)",
+        "Sámi languages (official in parts of Norway)"
       ],
       "speakers_by_language": {
-        "Vietnamese": 172540379
+        "Norwegian (Bokmål)": 4795601,
+        "Norwegian (Nynorsk)": 842753,
+        "Sámi languages (official in parts of Norway)": 29000
       },
-      "population": 246486256
+      "population": 5618354
     },
     "PRK": {
       "name": "North Korea",
       "iso_a3": "PRK",
       "iso_a2": "KP",
       "official_languages": [
-        "Romanian",
-        "Danish"
+        "Korean"
       ],
       "speakers_by_language": {
-        "Romanian": 1028975,
-        "Danish": 623954
+        "Korean": 26571036
       },
-      "population": 2295736
+      "population": 26571036
     },
     "NGA": {
       "name": "Nigeria",
       "iso_a3": "NGA",
       "iso_a2": "NG",
       "official_languages": [
-        "English",
-        "German"
+        "English"
       ],
       "speakers_by_language": {
-        "English": 3874194,
-        "German": 17191737
+        "English": 60000000
       },
-      "population": 31918078
+      "population": 239818245
     },
     "NER": {
       "name": "Niger",
       "iso_a3": "NER",
       "iso_a2": "NE",
       "official_languages": [
-        "Bengali",
-        "Italian"
+        "Hausa",
+        "French",
+        "English"
       ],
       "speakers_by_language": {
-        "Bengali": 67468233,
-        "Italian": 143932233
+        "Hausa": 26000000,
+        "French": 3629310,
+        "English": 0
       },
-      "population": 232308205
+      "population": 27917831
     },
     "NIC": {
       "name": "Nicaragua",
       "iso_a3": "NIC",
       "iso_a2": "NI",
       "official_languages": [
-        "Korean"
+        "Spanish",
+        "Miskito",
+        "Nicaragua Creole English",
+        "Mayangna",
+        "Ulwa",
+        "Rama",
+        "Garifuna"
       ],
       "speakers_by_language": {
-        "Korean": 105211350
+        "Spanish": 7007502,
+        "Miskito": 150000,
+        "Nicaragua Creole English": 40000,
+        "Mayangna": 11000,
+        "Ulwa": 900,
+        "Rama": 900,
+        "Garifuna": 2500
       },
-      "population": 164392735
+      "population": 7007502
     },
     "NZL": {
       "name": "New Zealand",
       "iso_a3": "NZL",
       "iso_a2": "NZ",
       "official_languages": [
-        "Indonesian",
-        "Czech"
+        "English",
+        "Māori",
+        "New Zealand Sign Language"
       ],
       "speakers_by_language": {
-        "Indonesian": 9223790,
-        "Czech": 21522178
+        "English": 4750056,
+        "Māori": 213849,
+        "New Zealand Sign Language": 22986
       },
-      "population": 37043335
+      "population": 5270024
     },
     "NIU": {
       "name": "Niue",
       "iso_a3": "NIU",
       "iso_a2": "NU",
       "official_languages": [
-        "Romanian"
+        "English",
+        "Niuean"
       ],
       "speakers_by_language": {
-        "Romanian": 76511561
+        "English": 1822,
+        "Niuean": 1014
       },
-      "population": 121446923
+      "population": 1822
     },
     "COK": {
       "name": "Cook Islands",
       "iso_a3": "COK",
       "iso_a2": "CK",
       "official_languages": [
-        "Hindi",
-        "Romanian"
+        "English",
+        "Cook Islands Māori (Rarotongan)"
       ],
       "speakers_by_language": {
-        "Hindi": 38656119,
-        "Romanian": 29483482
+        "English": 20390,
+        "Cook Islands Māori (Rarotongan)": 17983
       },
-      "population": 95971270
+      "population": 23600
     },
     "NLD": {
       "name": "Netherlands",
       "iso_a3": "NLD",
       "iso_a2": "NL",
       "official_languages": [
-        "Hungarian"
+        "Dutch",
+        "West Frisian"
       ],
       "speakers_by_language": {
-        "Hungarian": 88908736
+        "Dutch": 17118302,
+        "West Frisian": 453000
       },
-      "population": 118544982
+      "population": 18130662
     },
     "ABW": {
       "name": "Aruba",
       "iso_a3": "ABW",
       "iso_a2": "AW",
       "official_languages": [
-        "Thai"
+        "Papiamento",
+        "Dutch"
       ],
       "speakers_by_language": {
-        "Thai": 42529034
+        "Papiamento": 75056,
+        "Dutch": 6597
       },
-      "population": 72083110
+      "population": 108147
     },
     "CUW": {
       "name": "Curaçao",
       "iso_a3": "CUW",
       "iso_a2": "CW",
       "official_languages": [
-        "Russian",
-        "Arabic"
+        "Papiamentu",
+        "Dutch",
+        "English"
       ],
       "speakers_by_language": {
-        "Russian": 99997920,
-        "Arabic": 96200532
+        "Papiamentu": 124892,
+        "Dutch": 13738,
+        "English": 6593
       },
-      "population": 228137736
+      "population": 156115
     },
     "NPL": {
       "name": "Nepal",
       "iso_a3": "NPL",
       "iso_a2": "NP",
       "official_languages": [
-        "Dutch",
-        "Persian",
-        "Danish"
+        "Nepali"
       ],
       "speakers_by_language": {
-        "Dutch": 103274194,
-        "Persian": 25818548,
-        "Danish": 14200203
+        "Nepali": 13084457
       },
-      "population": 247056802
+      "population": 29164578
     },
     "NRU": {
       "name": "Nauru",
       "iso_a3": "NRU",
       "iso_a2": "NR",
       "official_languages": [
-        "Bengali",
-        "Persian"
+        "Nauruan",
+        "English"
       ],
       "speakers_by_language": {
-        "Bengali": 9857873,
-        "Persian": 18688885
+        "Nauruan": 11350,
+        "English": 7898
       },
-      "population": 40781083
+      "population": 11947
     },
     "NAM": {
       "name": "Namibia",
       "iso_a3": "NAM",
       "iso_a2": "NA",
       "official_languages": [
-        "Hindi"
+        "English"
       ],
       "speakers_by_language": {
-        "Hindi": 43412714
+        "English": 1082486
       },
-      "population": 78932208
+      "population": 3092816
     },
     "MOZ": {
       "name": "Mozambique",
       "iso_a3": "MOZ",
       "iso_a2": "MZ",
       "official_languages": [
-        "Hebrew",
-        "Italian"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Hebrew": 27209990,
-        "Italian": 52476411
+        "Portuguese": 16839304
       },
-      "population": 88540446
+      "population": 35631653
     },
     "MAR": {
       "name": "Morocco",
       "iso_a3": "MAR",
       "iso_a2": "MA",
       "official_languages": [
-        "English"
+        "Arabic",
+        "Amazigh (Berber)"
       ],
       "speakers_by_language": {
-        "English": 116176464
+        "Arabic": 34199662,
+        "Amazigh (Berber)": 9133426
       },
-      "population": 163628823
+      "population": 36828330
     },
     "SAH": {
       "name": "Western Sahara",
       "iso_a3": "SAH",
       "iso_a2": "EH",
       "official_languages": [
-        "Danish",
-        "Japanese"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Danish": 58109056,
-        "Japanese": 59924965
+        "Arabic": 600904
       },
-      "population": 181590803
+      "population": 600904
     },
     "MNE": {
       "name": "Montenegro",
       "iso_a3": "MNE",
       "iso_a2": "ME",
       "official_languages": [
-        "Norwegian"
+        "Montenegrin",
+        "Serbian",
+        "Bosnian",
+        "Albanian",
+        "Croatian"
       ],
       "speakers_by_language": {
-        "Norwegian": 153893605
+        "Montenegrin": 215299,
+        "Serbian": 269307,
+        "Bosnian": 43470,
+        "Albanian": 32725,
+        "Croatian": 9832
       },
-      "population": 233172129
+      "population": 623633
     },
     "MNG": {
       "name": "Mongolia",
       "iso_a3": "MNG",
       "iso_a2": "MN",
       "official_languages": [
-        "Ukrainian",
-        "Hungarian",
-        "Czech"
+        "Mongolian"
       ],
       "speakers_by_language": {
-        "Ukrainian": 10339440,
-        "Hungarian": 2647905,
-        "Czech": 3530541
+        "Mongolian": 3185464
       },
-      "population": 22321468
+      "population": 3537341
     },
     "MDA": {
       "name": "Moldova",
       "iso_a3": "MDA",
       "iso_a2": "MD",
       "official_languages": [
-        "Bengali",
-        "French",
-        "Danish"
+        "Romanian"
       ],
       "speakers_by_language": {
-        "Bengali": 51814513,
-        "French": 28007845,
-        "Danish": 55315496
+        "Romanian": 2206800
       },
-      "population": 177812966
+      "population": 2409200
     },
     "MCO": {
       "name": "Monaco",
       "iso_a3": "MCO",
       "iso_a2": "MC",
       "official_languages": [
-        "Hungarian"
+        "French"
       ],
       "speakers_by_language": {
-        "Hungarian": 3664969
+        "French": 38206
       },
-      "population": 6429771
+      "population": 38206
     },
     "MEX": {
       "name": "Mexico",
       "iso_a3": "MEX",
       "iso_a2": "MX",
       "official_languages": [
-        "Persian"
+        "Spanish",
+        "Indigenous languages (68 national languages recognized by Mexico's 2003 General Law of Linguistic Rights of Indigenous Peoples)"
       ],
       "speakers_by_language": {
-        "Persian": 78441923
+        "Spanish": 130219366,
+        "Indigenous languages (68 national languages recognized by Mexico's 2003 General Law of Linguistic Rights of Indigenous Peoples)": 7364645
       },
-      "population": 104589231
+      "population": 132471395
     },
     "MUS": {
       "name": "Mauritius",
       "iso_a3": "MUS",
       "iso_a2": "MU",
       "official_languages": [
-        "Polish",
-        "Greek"
+        "English"
       ],
       "speakers_by_language": {
-        "Polish": 87481086,
-        "Greek": 110250136
+        "English": 7462
       },
-      "population": 210352364
+      "population": 1243741
     },
     "MRT": {
       "name": "Mauritania",
       "iso_a3": "MRT",
       "iso_a2": "MR",
       "official_languages": [
-        "Danish"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Danish": 96477501
+        "Arabic": 5315065
       },
-      "population": 98446430
+      "population": 5315065
     },
     "MLT": {
       "name": "Malta",
       "iso_a3": "MLT",
       "iso_a2": "MT",
       "official_languages": [
-        "Greek",
-        "Turkish"
+        "Maltese",
+        "English"
       ],
       "speakers_by_language": {
-        "Greek": 130460121,
-        "Turkish": 85082689
+        "Maltese": 352346,
+        "English": 50242
       },
-      "population": 222209083
+      "population": 574250
     },
     "MLI": {
       "name": "Mali",
       "iso_a3": "MLI",
       "iso_a2": "ML",
       "official_languages": [
-        "Arabic",
-        "Thai"
+        "Bambara",
+        "Bobo",
+        "Bozo",
+        "Dogon",
+        "Fula (Fulfulde)",
+        "Hassaniya Arabic",
+        "Kassonke",
+        "Maninke",
+        "Minyanka",
+        "Senufo",
+        "Songhay",
+        "Soninke",
+        "Tamasheq"
       ],
       "speakers_by_language": {
-        "Arabic": 4644272,
-        "Thai": 2240179
+        "Bambara": 13200000,
+        "Bobo": 481257,
+        "Bozo": 402171,
+        "Dogon": 1651103,
+        "Fula (Fulfulde)": 2110542,
+        "Hassaniya Arabic": 254000,
+        "Kassonke": 271627,
+        "Maninke": 1290000,
+        "Minyanka": 961000,
+        "Senufo": 517000,
+        "Songhay": 1340000,
+        "Soninke": 1440000,
+        "Tamasheq": 810000
       },
-      "population": 7649391
+      "population": 25400000
     },
     "MDV": {
       "name": "Maldives",
       "iso_a3": "MDV",
       "iso_a2": "MV",
       "official_languages": [
-        "Portuguese",
-        "Finnish",
-        "Arabic"
+        "Dhivehi"
       ],
       "speakers_by_language": {
-        "Portuguese": 44253847,
-        "Finnish": 79288143,
-        "Arabic": 11985418
+        "Dhivehi": 397739
       },
-      "population": 138293274
+      "population": 529676
     },
     "MYS": {
       "name": "Malaysia",
       "iso_a3": "MYS",
       "iso_a2": "MY",
       "official_languages": [
-        "Arabic",
-        "Portuguese",
-        "Swedish"
+        "Malay",
+        "English"
       ],
       "speakers_by_language": {
-        "Arabic": 5148403,
-        "Portuguese": 5465227,
-        "Swedish": 7207765
+        "Malay": 34200000,
+        "English": 34200000
       },
-      "population": 32402538
+      "population": 34200000
     },
     "MWI": {
       "name": "Malawi",
       "iso_a3": "MWI",
       "iso_a2": "MW",
       "official_languages": [
-        "Hebrew",
-        "Italian",
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Hebrew": 12422880,
-        "Italian": 17013945,
-        "Ukrainian": 21334949
+        "English": 0
       },
-      "population": 64268069
+      "population": 22216120
     },
     "MDG": {
       "name": "Madagascar",
       "iso_a3": "MDG",
       "iso_a2": "MG",
       "official_languages": [
-        "Swahili"
+        "Malagasy",
+        "French"
       ],
       "speakers_by_language": {
-        "Swahili": 110480819
+        "Malagasy": 32740678,
+        "French": 8700000
       },
-      "population": 160117129
+      "population": 32740678
     },
     "MKD": {
       "name": "North Macedonia",
       "iso_a3": "MKD",
       "iso_a2": "MK",
       "official_languages": [
-        "Hungarian",
-        "Greek",
-        "Spanish"
+        "Macedonian",
+        "Albanian"
       ],
       "speakers_by_language": {
-        "Hungarian": 41955093,
-        "Greek": 15517637,
-        "Spanish": 44254003
+        "Macedonian": 1145327,
+        "Albanian": 444026
       },
-      "population": 154131414
+      "population": 1836713
     },
     "LUX": {
       "name": "Luxembourg",
       "iso_a3": "LUX",
       "iso_a2": "LU",
       "official_languages": [
-        "Portuguese",
-        "Spanish"
+        "Luxembourgish",
+        "French",
+        "German"
       ],
       "speakers_by_language": {
-        "Portuguese": 73141223,
-        "Spanish": 77042090
+        "Luxembourgish": 380541,
+        "French": 82519,
+        "German": 21141
       },
-      "population": 234661428
+      "population": 681973
     },
     "LTU": {
       "name": "Lithuania",
       "iso_a3": "LTU",
       "iso_a2": "LT",
       "official_languages": [
-        "Romanian",
-        "Greek"
+        "Lithuanian"
       ],
       "speakers_by_language": {
-        "Romanian": 62569994,
-        "Greek": 37179272
+        "Lithuanian": 2402405
       },
-      "population": 118749127
+      "population": 2815480
     },
     "LIE": {
       "name": "Liechtenstein",
       "iso_a3": "LIE",
       "iso_a2": "LI",
       "official_languages": [
-        "Danish",
-        "Russian",
-        "Spanish"
+        "German"
       ],
       "speakers_by_language": {
-        "Danish": 36423328,
-        "Russian": 28397849,
-        "Spanish": 29015195
+        "German": 37879
       },
-      "population": 105434126
+      "population": 41398
     },
     "LBY": {
       "name": "Libya",
       "iso_a3": "LBY",
       "iso_a2": "LY",
       "official_languages": [
-        "German",
-        "Hindi"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "German": 68841556,
-        "Hindi": 148274122
+        "Arabic": 7458555
       },
-      "population": 235995303
+      "population": 7458555
     },
     "LBR": {
       "name": "Liberia",
       "iso_a3": "LBR",
       "iso_a2": "LR",
       "official_languages": [
-        "Romanian",
-        "Danish",
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Romanian": 5980708,
-        "Danish": 7387934,
-        "Ukrainian": 6156613
+        "English": 1146241
       },
-      "population": 32008615
+      "population": 5731206
     },
     "LSO": {
       "name": "Lesotho",
       "iso_a3": "LSO",
       "iso_a2": "LS",
       "official_languages": [
-        "Swahili",
-        "Hebrew",
-        "Greek"
+        "Sesotho",
+        "English",
+        "isiXhosa",
+        "SiPhuthi"
       ],
       "speakers_by_language": {
-        "Swahili": 1454427,
-        "Hebrew": 927197,
-        "Greek": 509051
+        "Sesotho": 1987000,
+        "English": 1181816,
+        "isiXhosa": 18000,
+        "SiPhuthi": 20000
       },
-      "population": 3042816
+      "population": 2363325
     },
     "LBN": {
       "name": "Lebanon",
       "iso_a3": "LBN",
       "iso_a2": "LB",
       "official_languages": [
-        "Russian",
-        "Hebrew"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Russian": 124754762,
-        "Hebrew": 84833239
+        "Arabic": 5870375
       },
-      "population": 240905749
+      "population": 5870375
     },
     "LVA": {
       "name": "Latvia",
       "iso_a3": "LVA",
       "iso_a2": "LV",
       "official_languages": [
-        "Arabic"
+        "Latvian"
       ],
       "speakers_by_language": {
-        "Arabic": 180660536
+        "Latvian": 1151393
       },
-      "population": 202989367
+      "population": 1857000
     },
     "LAO": {
       "name": "Laos",
       "iso_a3": "LAO",
       "iso_a2": "LA",
       "official_languages": [
-        "Indonesian",
-        "Italian"
+        "Lao"
       ],
       "speakers_by_language": {
-        "Indonesian": 5034413,
-        "Italian": 15991665
+        "Lao": 7873046
       },
-      "population": 24448928
+      "population": 7873046
     },
     "KGZ": {
       "name": "Kyrgyzstan",
       "iso_a3": "KGZ",
       "iso_a2": "KG",
       "official_languages": [
-        "Arabic"
+        "Kyrgyz",
+        "Russian"
       ],
       "speakers_by_language": {
-        "Arabic": 6522797
+        "Kyrgyz": 5208654,
+        "Russian": 656553
       },
-      "population": 10520641
+      "population": 7295034
     },
     "KWT": {
       "name": "Kuwait",
       "iso_a3": "KWT",
       "iso_a2": "KW",
       "official_languages": [
-        "Italian",
-        "Czech"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Italian": 130627312,
-        "Czech": 45804383
+        "Arabic": 5069738
       },
-      "population": 238421210
+      "population": 5069738
     },
     "KOS": {
       "name": "Kosovo",
       "iso_a3": "KOS",
       "iso_a2": "KV",
       "official_languages": [
-        "Turkish"
+        "Albanian",
+        "Serbian"
       ],
       "speakers_by_language": {
-        "Turkish": 172941975
+        "Albanian": 1514444,
+        "Serbian": 25640
       },
-      "population": 208363826
+      "population": 1602515
     },
     "KIR": {
       "name": "Kiribati",
       "iso_a3": "KIR",
       "iso_a2": "KI",
       "official_languages": [
-        "Korean",
-        "Danish",
-        "Ukrainian"
+        "English",
+        "Gilbertese"
       ],
       "speakers_by_language": {
-        "Korean": 90339295,
-        "Danish": 52118824,
-        "Ukrainian": 50381530
+        "English": 10033,
+        "Gilbertese": 114660
       },
-      "population": 235170304
+      "population": 119438
     },
     "KEN": {
       "name": "Kenya",
       "iso_a3": "KEN",
       "iso_a2": "KE",
       "official_languages": [
-        "French",
-        "Spanish"
+        "English",
+        "Kiswahili"
       ],
       "speakers_by_language": {
-        "French": 16290377,
-        "Spanish": 40047178
+        "English": 2700000,
+        "Kiswahili": 16611000
       },
-      "population": 97133716
+      "population": 53330978
     },
     "KAZ": {
       "name": "Kazakhstan",
       "iso_a3": "KAZ",
       "iso_a2": "KZ",
       "official_languages": [
-        "Hungarian",
-        "Romanian"
+        "Kazakh",
+        "Russian"
       ],
       "speakers_by_language": {
-        "Hungarian": 70837956,
-        "Romanian": 29122271
+        "Kazakh": 13768406,
+        "Russian": 14391085
       },
-      "population": 131526615
+      "population": 20316155
     },
     "JOR": {
       "name": "Jordan",
       "iso_a3": "JOR",
       "iso_a2": "JO",
       "official_languages": [
-        "Polish",
-        "Swedish",
-        "English"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Polish": 15319484,
-        "Swedish": 68534537,
-        "English": 41927012
+        "Arabic": 12390000
       },
-      "population": 179687191
+      "population": 11520684
     },
     "JPN": {
       "name": "Japan",
       "iso_a3": "JPN",
       "iso_a2": "JP",
       "official_languages": [
-        "English"
+        "Japanese"
       ],
       "speakers_by_language": {
-        "English": 65154918
+        "Japanese": 123087383
       },
-      "population": 74890711
+      "population": 124330690
     },
     "JAM": {
       "name": "Jamaica",
       "iso_a3": "JAM",
       "iso_a2": "JM",
       "official_languages": [
-        "Czech",
-        "Spanish",
-        "Korean"
+        "English"
       ],
       "speakers_by_language": {
-        "Czech": 14490143,
-        "Spanish": 55062545,
-        "Korean": 23184231
+        "English": 2774538
       },
-      "population": 147201459
+      "population": 2774538
     },
     "ITA": {
       "name": "Italy",
       "iso_a3": "ITA",
       "iso_a2": "IT",
       "official_languages": [
-        "Polish"
+        "Italian",
+        "French",
+        "German",
+        "Ladin",
+        "Slovene"
       ],
       "speakers_by_language": {
-        "Polish": 185605594
+        "Italian": 58943464,
+        "French": 125000,
+        "German": 315000,
+        "Ladin": 30000,
+        "Slovene": 80000
       },
-      "population": 199575908
+      "population": 58943464
     },
     "ISR": {
       "name": "Israel",
       "iso_a3": "ISR",
       "iso_a2": "IL",
       "official_languages": [
-        "Danish"
+        "Hebrew"
       ],
       "speakers_by_language": {
-        "Danish": 130469825
+        "Hebrew": 10148000,
+        "Arabic": 2130000
       },
-      "population": 140290135
+      "population": 10148000
     },
     "PSX": {
       "name": "Palestine",
       "iso_a3": "PSX",
       "iso_a2": "PS",
       "official_languages": [
-        "Dutch"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Dutch": 115727077
+        "Arabic": 5589623
       },
-      "population": 144658847
+      "population": 5589623
     },
     "IRL": {
       "name": "Ireland",
       "iso_a3": "IRL",
       "iso_a2": "IE",
       "official_languages": [
-        "Czech"
+        "Irish",
+        "English"
       ],
       "speakers_by_language": {
-        "Czech": 55498387
+        "Irish": 1873997,
+        "English": 5458600
       },
-      "population": 57214832
+      "population": 5458600
     },
     "IRQ": {
       "name": "Iraq",
       "iso_a3": "IRQ",
       "iso_a2": "IQ",
       "official_languages": [
-        "Japanese",
-        "Hungarian"
+        "Arabic",
+        "Kurdish"
       ],
       "speakers_by_language": {
-        "Japanese": 48585457,
-        "Hungarian": 32390305
+        "Arabic": 36788780,
+        "Kurdish": 7907470
       },
-      "population": 102500965
+      "population": 46416100
     },
     "IRN": {
       "name": "Iran",
       "iso_a3": "IRN",
       "iso_a2": "IR",
       "official_languages": [
-        "Danish",
-        "English"
+        "Persian"
       ],
       "speakers_by_language": {
-        "Danish": 96806129,
-        "English": 87125517
+        "Persian": 58700000
       },
-      "population": 235809803
+      "population": 92417681
     },
     "IDN": {
       "name": "Indonesia",
       "iso_a3": "IDN",
       "iso_a2": "ID",
       "official_languages": [
-        "Hungarian",
-        "Korean"
+        "Indonesian"
       ],
       "speakers_by_language": {
-        "Hungarian": 23066810,
-        "Korean": 55744793
+        "Indonesian": 260000000
       },
-      "population": 94953739
+      "population": 285721236
     },
     "IND": {
       "name": "India",
       "iso_a3": "IND",
       "iso_a2": "IN",
       "official_languages": [
-        "Arabic"
+        "Hindi",
+        "English"
       ],
       "speakers_by_language": {
-        "Arabic": 74702140
+        "Hindi": 691564035,
+        "English": 129000000
       },
-      "population": 126613798
+      "population": 1463865525
     },
     "ISL": {
       "name": "Iceland",
       "iso_a3": "ISL",
       "iso_a2": "IS",
       "official_languages": [
-        "Portuguese",
-        "Swahili",
-        "Romanian"
+        "Icelandic",
+        "Icelandic Sign Language"
       ],
       "speakers_by_language": {
-        "Portuguese": 30784583,
-        "Swahili": 38961738,
-        "Romanian": 12506238
+        "Icelandic": 366564,
+        "Icelandic Sign Language": 250
       },
-      "population": 105451999
+      "population": 393160
     },
     "HUN": {
       "name": "Hungary",
       "iso_a3": "HUN",
       "iso_a2": "HU",
       "official_languages": [
-        "Bengali",
-        "Thai"
+        "Hungarian"
       ],
       "speakers_by_language": {
-        "Bengali": 34085076,
-        "Thai": 40902093
+        "Hungarian": 9507598
       },
-      "population": 108677057
+      "population": 9603634
     },
     "HND": {
       "name": "Honduras",
       "iso_a3": "HND",
       "iso_a2": "HN",
       "official_languages": [
-        "Romanian"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Romanian": 90363540
+        "Spanish": 11005850
       },
-      "population": 108871735
+      "population": 11005850
     },
     "HTI": {
       "name": "Haiti",
       "iso_a3": "HTI",
       "iso_a2": "HT",
       "official_languages": [
-        "Finnish",
-        "Hindi",
-        "Korean"
+        "Haitian Creole",
+        "French"
       ],
       "speakers_by_language": {
-        "Finnish": 27130400,
-        "Hindi": 56619967,
-        "Korean": 28899776
+        "Haitian Creole": 11906095,
+        "French": 833427
       },
-      "population": 156458532
+      "population": 11906095
     },
     "GUY": {
       "name": "Guyana",
       "iso_a3": "GUY",
       "iso_a2": "GY",
       "official_languages": [
-        "Dutch",
-        "Thai",
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Dutch": 11412768,
-        "Thai": 14021401,
-        "Ukrainian": 13369245
+        "English": 835986
       },
-      "population": 50394045
+      "population": 835986
     },
     "GNB": {
       "name": "Guinea-Bissau",
       "iso_a3": "GNB",
       "iso_a2": "GW",
       "official_languages": [
-        "Greek",
-        "Persian"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Greek": 29945800,
-        "Persian": 6693768
+        "Portuguese": 609613
       },
-      "population": 47583855
+      "population": 2249515
     },
     "GIN": {
       "name": "Guinea",
       "iso_a3": "GIN",
       "iso_a2": "GN",
       "official_languages": [
-        "Indonesian",
-        "Polish"
+        "French"
       ],
       "speakers_by_language": {
-        "Indonesian": 35844288,
-        "Polish": 48165764
+        "French": 4110000
       },
-      "population": 112013403
+      "population": 14760000
     },
     "GTM": {
       "name": "Guatemala",
       "iso_a3": "GTM",
       "iso_a2": "GT",
       "official_languages": [
-        "Persian",
-        "Thai",
         "Spanish"
       ],
       "speakers_by_language": {
-        "Persian": 65070273,
-        "Thai": 68364971,
-        "Spanish": 51067811
+        "Spanish": 13063152
       },
-      "population": 222292838
+      "population": 18687881
     },
     "GRD": {
       "name": "Grenada",
       "iso_a3": "GRD",
       "iso_a2": "GD",
       "official_languages": [
-        "Polish",
-        "Danish",
-        "Norwegian"
+        "English"
       ],
       "speakers_by_language": {
-        "Polish": 40156356,
-        "Danish": 27328631,
-        "Norwegian": 34579085
+        "English": 5350
       },
-      "population": 118679154
+      "population": 117000
     },
     "GRC": {
       "name": "Greece",
       "iso_a3": "GRC",
       "iso_a2": "GR",
       "official_languages": [
-        "Arabic",
-        "Bengali"
+        "Greek",
+        "Greek Sign Language"
       ],
       "speakers_by_language": {
-        "Arabic": 581606,
-        "Bengali": 1581969
+        "Greek": 10372335,
+        "Greek Sign Language": 40600
       },
-      "population": 3229217
+      "population": 10372335
     },
     "GHA": {
       "name": "Ghana",
       "iso_a3": "GHA",
       "iso_a2": "GH",
       "official_languages": [
-        "Hebrew",
-        "Czech"
+        "English"
       ],
       "speakers_by_language": {
-        "Hebrew": 59735474,
-        "Czech": 65104956
+        "English": 9800002
       },
-      "population": 198159414
+      "population": 30832019
     },
     "DEU": {
       "name": "Germany",
       "iso_a3": "DEU",
       "iso_a2": "DE",
       "official_languages": [
-        "Hebrew"
+        "German"
       ],
       "speakers_by_language": {
-        "Hebrew": 28738879
+        "German": 81738391
       },
-      "population": 34625156
+      "population": 83750401
     },
     "GEO": {
       "name": "Georgia",
       "iso_a3": "GEO",
       "iso_a2": "GE",
       "official_languages": [
-        "Portuguese"
+        "Georgian",
+        "Abkhaz"
       ],
       "speakers_by_language": {
-        "Portuguese": 193331362
+        "Georgian": 3254852,
+        "Abkhaz": 0
       },
-      "population": 227448662
+      "population": 3806671
     },
     "GMB": {
       "name": "Gambia",
       "iso_a3": "GMB",
       "iso_a2": "GM",
       "official_languages": [
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 108295554
+        "English": 12114
       },
-      "population": 171897705
+      "population": 2422712
     },
     "GAB": {
       "name": "Gabon",
       "iso_a3": "GAB",
       "iso_a2": "GA",
       "official_languages": [
-        "Thai",
-        "Finnish",
-        "Hebrew"
+        "French"
       ],
       "speakers_by_language": {
-        "Thai": 51890342,
-        "Finnish": 12670897,
-        "Hebrew": 39219445
+        "French": 1719266
       },
-      "population": 110404984
+      "population": 2593130
     },
     "FRA": {
       "name": "France",
       "iso_a3": "FRA",
       "iso_a2": "FR",
       "official_languages": [
-        "Hungarian",
-        "Polish",
-        "Spanish"
+        "French"
       ],
       "speakers_by_language": {
-        "Hungarian": 62605158,
-        "Polish": 64923868,
-        "Spanish": 19322581
+        "French": 63800000
       },
-      "population": 201166586
+      "population": 68600000
     },
     "SPM": {
       "name": "Saint Pierre and Miquelon",
       "iso_a3": "SPM",
       "iso_a2": "PM",
       "official_languages": [
-        "French",
-        "Czech",
-        "Italian"
+        "French"
       ],
       "speakers_by_language": {
-        "French": 75846209,
-        "Czech": 56422180,
-        "Italian": 15724215
+        "French": 5574
       },
-      "population": 231238444
+      "population": 5574
     },
     "WLF": {
       "name": "Wallis and Futuna",
       "iso_a3": "WLF",
       "iso_a2": "WF",
       "official_languages": [
-        "Dutch",
         "French"
       ],
       "speakers_by_language": {
-        "Dutch": 6027888,
-        "French": 1906782
+        "French": 11151
       },
-      "population": 11335243
+      "population": 11151
     },
     "MAF": {
       "name": "Saint Martin",
       "iso_a3": "MAF",
       "iso_a2": "MF",
       "official_languages": [
-        "Turkish"
+        "French"
       ],
       "speakers_by_language": {
-        "Turkish": 114026226
+        "French": 32897
       },
-      "population": 170188398
+      "population": 32897
     },
     "BLM": {
       "name": "Saint Barthelemy",
       "iso_a3": "BLM",
       "iso_a2": "BL",
       "official_languages": [
-        "Swahili"
+        "French"
       ],
       "speakers_by_language": {
-        "Swahili": 42793719
+        "French": 11414
       },
-      "population": 62019883
+      "population": 11414
     },
     "PYF": {
       "name": "French Polynesia",
       "iso_a3": "PYF",
       "iso_a2": "PF",
       "official_languages": [
-        "French",
-        "Japanese",
-        "Thai"
+        "French"
       ],
       "speakers_by_language": {
-        "French": 34737804,
-        "Japanese": 35978440,
-        "Thai": 30188808
+        "French": 265000
       },
-      "population": 155238542
+      "population": 279000
     },
     "NCL": {
       "name": "New Caledonia",
       "iso_a3": "NCL",
       "iso_a2": "NC",
       "official_languages": [
-        "Swahili"
+        "French"
       ],
       "speakers_by_language": {
-        "Swahili": 8694780
+        "French": 264596
       },
-      "population": 9249766
+      "population": 264596
     },
     "ATF": {
       "name": "French Southern and Antarctic Lands",
       "iso_a3": "ATF",
       "iso_a2": "TF",
       "official_languages": [
-        "Swedish"
+        "French"
       ],
       "speakers_by_language": {
-        "Swedish": 15969294
+        "French": 0
       },
-      "population": 20739343
+      "population": 0
     },
     "ALD": {
       "name": "Aland",
       "iso_a3": "ALD",
       "iso_a2": "AX",
       "official_languages": [
-        "Bengali",
-        "Hungarian"
+        "Swedish"
       ],
       "speakers_by_language": {
-        "Bengali": 45042435,
-        "Hungarian": 87435315
+        "Swedish": 26117
       },
-      "population": 181476370
+      "population": 30654
     },
     "FIN": {
       "name": "Finland",
       "iso_a3": "FIN",
       "iso_a2": "FI",
       "official_languages": [
-        "Dutch"
+        "Finnish",
+        "Swedish"
       ],
       "speakers_by_language": {
-        "Dutch": 134447580
+        "Finnish": 4738386,
+        "Swedish": 285360
       },
-      "population": 146138674
+      "population": 5635971
     },
     "FJI": {
       "name": "Fiji",
       "iso_a3": "FJI",
       "iso_a2": "FJ",
       "official_languages": [
-        "Hebrew",
-        "Finnish"
+        "English",
+        "iTaukei (Fijian)",
+        "Hindi (Fiji Hindi)"
       ],
       "speakers_by_language": {
-        "Hebrew": 62478903,
-        "Finnish": 90878406
+        "English": 933154,
+        "iTaukei (Fijian)": 650000,
+        "Hindi (Fiji Hindi)": 460000
       },
-      "population": 222256970
+      "population": 933154
     },
     "ETH": {
       "name": "Ethiopia",
       "iso_a3": "ETH",
       "iso_a2": "ET",
       "official_languages": [
-        "Romanian",
-        "English",
-        "Dutch"
+        "Amharic",
+        "Afan Oromo",
+        "Tigrinya",
+        "Somali",
+        "Afar"
       ],
       "speakers_by_language": {
-        "Romanian": 8248044,
-        "English": 22075648,
-        "Dutch": 18679396
+        "Amharic": 39643261,
+        "Afan Oromo": 45789553,
+        "Tigrinya": 7992851,
+        "Somali": 8409267,
+        "Afar": 2303025
       },
-      "population": 83056083
+      "population": 135472051
     },
     "EST": {
       "name": "Estonia",
       "iso_a3": "EST",
       "iso_a2": "EE",
       "official_languages": [
-        "Portuguese"
+        "Estonian"
       ],
       "speakers_by_language": {
-        "Portuguese": 231211659
+        "Estonian": 1150796
       },
-      "population": 245969851
+      "population": 1369995
     },
     "ERI": {
       "name": "Eritrea",
       "iso_a3": "ERI",
       "iso_a2": "ER",
       "official_languages": [
-        "Hebrew",
-        "Thai",
-        "Vietnamese"
+        "Tigrinya",
+        "Arabic",
+        "English"
       ],
       "speakers_by_language": {
-        "Hebrew": 44272261,
-        "Thai": 11351861,
-        "Vietnamese": 12487049
+        "Tigrinya": 1803502,
+        "Arabic": 1803502,
+        "English": 1803502
       },
-      "population": 121627092
+      "population": 3607003
     },
     "GNQ": {
       "name": "Equatorial Guinea",
       "iso_a3": "GNQ",
       "iso_a2": "GQ",
       "official_languages": [
-        "Polish",
         "Spanish",
-        "Bengali"
+        "French",
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Polish": 22701536,
-        "Spanish": 22087981,
-        "Bengali": 27609978
+        "Spanish": 1327859,
+        "French": 317462,
+        "Portuguese": 317462
       },
-      "population": 81347748
+      "population": 1961321
     },
     "SLV": {
       "name": "El Salvador",
       "iso_a3": "SLV",
       "iso_a2": "SV",
       "official_languages": [
-        "Thai",
-        "Polish"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Thai": 99487559,
-        "Polish": 99487559
+        "Spanish": 6396289
       },
-      "population": 216277303
+      "population": 6396289
     },
     "EGY": {
       "name": "Egypt",
       "iso_a3": "EGY",
       "iso_a2": "EG",
       "official_languages": [
-        "French",
-        "Greek",
         "Arabic"
       ],
       "speakers_by_language": {
-        "French": 45438451,
-        "Greek": 34078838,
-        "Arabic": 49224991
+        "Arabic": 119236285
       },
-      "population": 201159813
+      "population": 119236285
     },
     "ECU": {
       "name": "Ecuador",
       "iso_a3": "ECU",
       "iso_a2": "EC",
       "official_languages": [
-        "Bengali",
-        "Italian"
+        "Spanish",
+        "Kichwa",
+        "Shuar"
       ],
       "speakers_by_language": {
-        "Bengali": 4817413,
-        "Italian": 6139842
+        "Spanish": 17814341,
+        "Kichwa": 527333,
+        "Shuar": 59894
       },
-      "population": 17392469
+      "population": 18365300
     },
     "DOM": {
       "name": "Dominican Republic",
       "iso_a3": "DOM",
       "iso_a2": "DO",
       "official_languages": [
-        "English",
-        "Swahili",
-        "Korean"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "English": 69736905,
-        "Swahili": 30845169,
-        "Korean": 115334113
+        "Spanish": 11520487
       },
-      "population": 227280197
+      "population": 11520487
     },
     "DMA": {
       "name": "Dominica",
       "iso_a3": "DMA",
       "iso_a2": "DM",
       "official_languages": [
-        "Hungarian"
+        "English"
       ],
       "speakers_by_language": {
-        "Hungarian": 179352135
+        "English": 65708
       },
-      "population": 216086910
+      "population": 65708
     },
     "DJI": {
       "name": "Djibouti",
       "iso_a3": "DJI",
       "iso_a2": "DJ",
       "official_languages": [
-        "Thai",
-        "Japanese"
+        "Arabic",
+        "French"
       ],
       "speakers_by_language": {
-        "Thai": 17403373,
-        "Japanese": 7401435
+        "Arabic": 59000,
+        "French": 592038
       },
-      "population": 26961748
+      "population": 1184076
     },
     "GRL": {
       "name": "Greenland",
       "iso_a3": "GRL",
       "iso_a2": "GL",
       "official_languages": [
-        "French",
-        "Indonesian"
+        "Greenlandic"
       ],
       "speakers_by_language": {
-        "French": 56509141,
-        "Indonesian": 57724393
+        "Greenlandic": 50000
       },
-      "population": 170497812
+      "population": 56542
     },
     "FRO": {
       "name": "Faroe Islands",
       "iso_a3": "FRO",
       "iso_a2": "FO",
       "official_languages": [
-        "Swedish"
+        "Faroese",
+        "Danish"
       ],
       "speakers_by_language": {
-        "Swedish": 215275954
+        "Faroese": 52778,
+        "Danish": 1800
       },
-      "population": 241883095
+      "population": 56271
     },
     "DNK": {
       "name": "Denmark",
       "iso_a3": "DNK",
       "iso_a2": "DK",
-      "official_languages": [
-        "German"
-      ],
-      "speakers_by_language": {
-        "German": 82405714
-      },
-      "population": 89571429
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 6024684
     },
     "CZE": {
       "name": "Czechia",
       "iso_a3": "CZE",
       "iso_a2": "CZ",
       "official_languages": [
-        "Danish"
+        "Czech"
       ],
       "speakers_by_language": {
-        "Danish": 39723770
+        "Czech": 9213987
       },
-      "population": 63053604
+      "population": 10524167
     },
     "CYN": {
       "name": "Northern Cyprus",
       "iso_a3": "CYN",
       "iso_a2": "",
       "official_languages": [
-        "Korean"
+        "Turkish"
       ],
       "speakers_by_language": {
-        "Korean": 21405279
+        "Turkish": 476214
       },
-      "population": 25789493
+      "population": 476214
     },
     "CYP": {
       "name": "Cyprus",
       "iso_a3": "CYP",
       "iso_a2": "CY",
       "official_languages": [
-        "Russian"
+        "Greek",
+        "Turkish"
       ],
       "speakers_by_language": {
-        "Russian": 27668076
+        "Greek": 1030000,
+        "Turkish": 3000
       },
-      "population": 48540485
+      "population": 1274000
     },
     "CUB": {
       "name": "Cuba",
       "iso_a3": "CUB",
       "iso_a2": "CU",
       "official_languages": [
-        "Ukrainian"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Ukrainian": 133204440
+        "Spanish": 10985974
       },
-      "population": 138754625
+      "population": 10985974
     },
     "HRV": {
       "name": "Croatia",
       "iso_a3": "HRV",
       "iso_a2": "HR",
       "official_languages": [
-        "Bengali"
+        "Croatian"
       ],
       "speakers_by_language": {
-        "Bengali": 141792066
+        "Croatian": 3687735
       },
-      "population": 170833815
+      "population": 3866233
     },
     "CIV": {
       "name": "Ivory Coast",
       "iso_a3": "CIV",
       "iso_a2": "CI",
       "official_languages": [
-        "Persian"
+        "French"
       ],
       "speakers_by_language": {
-        "Persian": 239049863
+        "French": 11630000
       },
-      "population": 246443158
+      "population": 31934230
     },
     "CRI": {
       "name": "Costa Rica",
       "iso_a3": "CRI",
       "iso_a2": "CR",
       "official_languages": [
-        "Hindi",
-        "Danish",
-        "Korean"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Hindi": 54879470,
-        "Danish": 63272801,
-        "Korean": 27116915
+        "Spanish": 5152950
       },
-      "population": 213631156
+      "population": 5152950
     },
     "COD": {
       "name": "Democratic Republic of the Congo",
       "iso_a3": "COD",
       "iso_a2": "CD",
       "official_languages": [
-        "Indonesian",
-        "Danish"
+        "French",
+        "Kituba (Kikongo)",
+        "Lingala",
+        "Swahili (Congo Swahili/Kingwana)",
+        "Tshiluba"
       ],
       "speakers_by_language": {
-        "Indonesian": 89065288,
-        "Danish": 23927988
+        "French": 55393000,
+        "Kituba (Kikongo)": 4200000,
+        "Lingala": 7000000,
+        "Swahili (Congo Swahili/Kingwana)": 0,
+        "Tshiluba": 6300000
       },
-      "population": 118940291
+      "population": 112832473
     },
     "COG": {
       "name": "Republic of the Congo",
       "iso_a3": "COG",
       "iso_a2": "CG",
       "official_languages": [
-        "Ukrainian",
-        "Indonesian",
-        "Italian"
+        "French",
+        "Lingala",
+        "Kituba"
       ],
       "speakers_by_language": {
-        "Ukrainian": 32063980,
-        "Indonesian": 26308907,
-        "Italian": 13154455
+        "French": 3981424,
+        "Lingala": 0,
+        "Kituba": 0
       },
-      "population": 84149815
+      "population": 6484437
     },
     "COM": {
       "name": "Comoros",
       "iso_a3": "COM",
       "iso_a2": "KM",
       "official_languages": [
-        "English"
+        "Arabic",
+        "French",
+        "Comorian (Shikomori)"
       ],
       "speakers_by_language": {
-        "English": 162638395
+        "Arabic": 882847,
+        "French": 229510,
+        "Comorian (Shikomori)": 882847
       },
-      "population": 229068163
+      "population": 882847
     },
     "COL": {
       "name": "Colombia",
       "iso_a3": "COL",
       "iso_a2": "CO",
       "official_languages": [
-        "English"
+        "Spanish",
+        "Indigenous languages (various; official in their territories)"
       ],
       "speakers_by_language": {
-        "English": 115250237
+        "Spanish": 52652778,
+        "Indigenous languages (various; official in their territories)": 404434
       },
-      "population": 195339386
+      "population": 53057212
     },
     "CHN": {
       "name": "China",
       "iso_a3": "CHN",
       "iso_a2": "CN",
       "official_languages": [
-        "Polish",
-        "Hungarian"
+        "Standard Chinese (Putonghua)"
       ],
       "speakers_by_language": {
-        "Polish": 41524900,
-        "Hungarian": 51339877
+        "Standard Chinese (Putonghua)": 1136567616
       },
-      "population": 116080972
+      "population": 1408280000
     },
     "MAC": {
       "name": "Macao S.A.R",
       "iso_a3": "MAC",
       "iso_a2": "MO",
       "official_languages": [
-        "Polish"
+        "Chinese",
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Polish": 162308844
+        "Chinese": 660780,
+        "Portuguese": 41196
       },
-      "population": 249705915
+      "population": 686600
     },
     "HKG": {
       "name": "Hong Kong S.A.R.",
       "iso_a3": "HKG",
       "iso_a2": "HK",
       "official_languages": [
-        "Ukrainian",
-        "Swedish"
+        "Chinese",
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 67582455,
-        "Swedish": 68309149
+        "Chinese": 7527500,
+        "English": 4413625
       },
-      "population": 176482603
+      "population": 7527500
     },
     "CHL": {
       "name": "Chile",
       "iso_a3": "CHL",
       "iso_a2": "CL",
       "official_languages": [
-        "Persian",
-        "French"
+        "Spanish"
       ],
       "speakers_by_language": {
-        "Persian": 20086000,
-        "French": 97751871
+        "Spanish": 19720800
       },
-      "population": 214250676
+      "population": 19859921
     },
     "TCD": {
       "name": "Chad",
@@ -2779,233 +2756,287 @@
       "iso_a2": "TD",
       "official_languages": [
         "French",
-        "Hebrew",
-        "Vietnamese"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "French": 36303763,
-        "Hebrew": 42354390,
-        "Vietnamese": 145215054
+        "French": 420000,
+        "Arabic": 10500000
       },
-      "population": 248748008
+      "population": 21003705
     },
     "CAF": {
       "name": "Central African Republic",
       "iso_a3": "CAF",
       "iso_a2": "CF",
       "official_languages": [
-        "Swedish",
-        "Polish"
+        "French",
+        "Sango"
       ],
       "speakers_by_language": {
-        "Swedish": 23611849,
-        "Polish": 52890542
+        "French": 1576799,
+        "Sango": 5072219
       },
-      "population": 87933783
+      "population": 5513282
     },
     "CPV": {
       "name": "Cabo Verde",
       "iso_a3": "CPV",
       "iso_a2": "CV",
       "official_languages": [
-        "Indonesian"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Indonesian": 198749416
+        "Portuguese": 527326
       },
-      "population": 236606448
+      "population": 527326
     },
     "CAN": {
       "name": "Canada",
       "iso_a3": "CAN",
       "iso_a2": "CA",
       "official_languages": [
-        "Hebrew",
-        "Spanish"
+        "English",
+        "French"
       ],
       "speakers_by_language": {
-        "Hebrew": 46356420,
-        "Spanish": 41276266
+        "English": 27881228,
+        "French": 8066633
       },
-      "population": 132776798
+      "population": 41575585
     },
     "CMR": {
       "name": "Cameroon",
       "iso_a3": "CMR",
       "iso_a2": "CM",
       "official_languages": [
-        "Ukrainian"
+        "French",
+        "English"
       ],
       "speakers_by_language": {
-        "Ukrainian": 184532721
+        "French": 16732429,
+        "English": 6872248
       },
-      "population": 202783210
+      "population": 29879337
     },
     "KHM": {
       "name": "Cambodia",
       "iso_a3": "KHM",
       "iso_a2": "KH",
       "official_languages": [
-        "Japanese"
+        "Khmer"
       ],
       "speakers_by_language": {
-        "Japanese": 165595737
+        "Khmer": 17100000
       },
-      "population": 243523144
+      "population": 17847982
     },
     "MMR": {
       "name": "Myanmar",
       "iso_a3": "MMR",
       "iso_a2": "MM",
       "official_languages": [
-        "Japanese",
-        "Portuguese"
+        "Burmese"
       ],
       "speakers_by_language": {
-        "Japanese": 57394757,
-        "Portuguese": 70021604
+        "Burmese": 35610000
       },
-      "population": 182023373
+      "population": 54850648
     },
     "BDI": {
       "name": "Burundi",
       "iso_a3": "BDI",
       "iso_a2": "BI",
       "official_languages": [
-        "German",
-        "Japanese"
+        "Kirundi",
+        "French",
+        "English"
       ],
       "speakers_by_language": {
-        "German": 81214929,
-        "Japanese": 63738300
+        "Kirundi": 14102203,
+        "French": 935350,
+        "English": 35975
       },
-      "population": 216348103
+      "population": 14390003
     },
     "BFA": {
       "name": "Burkina Faso",
       "iso_a3": "BFA",
       "iso_a2": "BF",
-      "official_languages": [
-        "Finnish"
-      ],
-      "speakers_by_language": {
-        "Finnish": 48627046
-      },
-      "population": 83839736
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 24074580
     },
     "BGR": {
       "name": "Bulgaria",
       "iso_a3": "BGR",
       "iso_a2": "BG",
       "official_languages": [
-        "Dutch",
-        "Ukrainian"
+        "Bulgarian"
       ],
       "speakers_by_language": {
-        "Dutch": 33748035,
-        "Ukrainian": 40350913
+        "Bulgarian": 5037607
       },
-      "population": 89275841
+      "population": 6437360
     },
     "BRN": {
       "name": "Brunei",
       "iso_a3": "BRN",
       "iso_a2": "BN",
       "official_languages": [
-        "Hungarian",
-        "Portuguese"
+        "Malay"
       ],
       "speakers_by_language": {
-        "Hungarian": 13229759,
-        "Portuguese": 25256813
+        "Malay": 455500
       },
-      "population": 50640227
+      "population": 455500
     },
     "BRA": {
       "name": "Brazil",
       "iso_a3": "BRA",
       "iso_a2": "BR",
       "official_languages": [
-        "Russian",
-        "Indonesian",
-        "Korean"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Russian": 38508331,
-        "Indonesian": 50542185,
-        "Korean": 48135415
+        "Portuguese": 213400000
       },
-      "population": 180507805
+      "population": 213400000
     },
     "BWA": {
       "name": "Botswana",
       "iso_a3": "BWA",
       "iso_a2": "BW",
       "official_languages": [
-        "Greek",
-        "Norwegian",
-        "Romanian"
+        "English"
       ],
       "speakers_by_language": {
-        "Greek": 38152489,
-        "Norwegian": 65707065,
-        "Romanian": 53696097
+        "English": 72352
       },
-      "population": 179040513
+      "population": 2581953
     },
     "BIH": {
       "name": "Bosnia and Herzegovina",
       "iso_a3": "BIH",
       "iso_a2": "BA",
       "official_languages": [
-        "English",
-        "Hungarian"
+        "Bosnian",
+        "Croatian",
+        "Serbian"
       ],
       "speakers_by_language": {
-        "English": 31931720,
-        "Hungarian": 83022475
+        "Bosnian": 1661110,
+        "Croatian": 458454,
+        "Serbian": 967149
       },
-      "population": 157471500
+      "population": 3140095
     },
     "BOL": {
       "name": "Bolivia",
       "iso_a3": "BOL",
       "iso_a2": "BO",
       "official_languages": [
-        "Norwegian",
-        "Swahili"
+        "Spanish",
+        "Aymara",
+        "Araona",
+        "Baure",
+        "Bésiro",
+        "Canichana",
+        "Cavineño",
+        "Cayubaba",
+        "Chácobo",
+        "Chimán",
+        "Ese Ejja",
+        "Guaraní",
+        "Guarasu'we",
+        "Guarayu",
+        "Itonama",
+        "Leco",
+        "Machajuyai-Kallawaya",
+        "Machineri",
+        "Maropa",
+        "Mojeño-Ignaciano",
+        "Mojeño-Trinitario",
+        "Moré",
+        "Mosetén",
+        "Movima",
+        "Pacawara",
+        "Puquina",
+        "Quechua",
+        "Sirionó",
+        "Tacana",
+        "Tapieté",
+        "Toromona",
+        "Uru-Chipaya",
+        "Weenhayek",
+        "Yaminawa",
+        "Yuki",
+        "Yuracaré",
+        "Zamuco"
       ],
       "speakers_by_language": {
-        "Norwegian": 55521966,
-        "Swahili": 31967194
+        "Spanish": 8810000,
+        "Aymara": 1260000,
+        "Araona": 0,
+        "Baure": 0,
+        "Bésiro": 0,
+        "Canichana": 0,
+        "Cavineño": 0,
+        "Cayubaba": 0,
+        "Chácobo": 0,
+        "Chimán": 0,
+        "Ese Ejja": 0,
+        "Guaraní": 50000,
+        "Guarasu'we": 0,
+        "Guarayu": 0,
+        "Itonama": 0,
+        "Leco": 0,
+        "Machajuyai-Kallawaya": 0,
+        "Machineri": 0,
+        "Maropa": 0,
+        "Mojeño-Ignaciano": 0,
+        "Mojeño-Trinitario": 0,
+        "Moré": 0,
+        "Mosetén": 0,
+        "Movima": 0,
+        "Pacawara": 0,
+        "Puquina": 0,
+        "Quechua": 2270000,
+        "Sirionó": 0,
+        "Tacana": 0,
+        "Tapieté": 0,
+        "Toromona": 0,
+        "Uru-Chipaya": 0,
+        "Weenhayek": 0,
+        "Yaminawa": 0,
+        "Yuki": 0,
+        "Yuracaré": 0,
+        "Zamuco": 0
       },
-      "population": 119848165
+      "population": 12581843
     },
     "BTN": {
       "name": "Bhutan",
       "iso_a3": "BTN",
       "iso_a2": "BT",
       "official_languages": [
-        "Persian"
+        "Dzongkha"
       ],
       "speakers_by_language": {
-        "Persian": 140676429
+        "Dzongkha": 640000
       },
-      "population": 246800754
+      "population": 796682
     },
     "BEN": {
       "name": "Benin",
       "iso_a3": "BEN",
       "iso_a2": "BJ",
       "official_languages": [
-        "Spanish",
-        "Korean"
+        "French"
       ],
       "speakers_by_language": {
-        "Spanish": 30574094,
-        "Korean": 34171047
+        "French": 4600000
       },
-      "population": 104427648
+      "population": 13700000
     },
     "BLZ": {
       "name": "Belize",
@@ -3015,361 +3046,331 @@
         "English"
       ],
       "speakers_by_language": {
-        "English": 163530242
+        "English": 278390
       },
-      "population": 172137097
+      "population": 368728
     },
     "BEL": {
       "name": "Belgium",
       "iso_a3": "BEL",
       "iso_a2": "BE",
       "official_languages": [
-        "Ukrainian",
-        "Bengali",
-        "Swahili"
+        "Dutch",
+        "French",
+        "German"
       ],
       "speakers_by_language": {
-        "Ukrainian": 79917374,
-        "Bengali": 8879708,
-        "Swahili": 50856511
+        "Dutch": 7095331,
+        "French": 4730220,
+        "German": 59128
       },
-      "population": 147003783
+      "population": 11825551
     },
     "BLR": {
       "name": "Belarus",
       "iso_a3": "BLR",
       "iso_a2": "BY",
       "official_languages": [
-        "Bengali",
-        "Turkish"
+        "Belarusian",
+        "Russian"
       ],
       "speakers_by_language": {
-        "Bengali": 830419,
-        "Turkish": 1119262
+        "Belarusian": 2447764,
+        "Russian": 6718557
       },
-      "population": 2215547
+      "population": 8997603
     },
     "BRB": {
       "name": "Barbados",
       "iso_a3": "BRB",
       "iso_a2": "BB",
       "official_languages": [
-        "Danish",
-        "Indonesian"
+        "English"
       ],
       "speakers_by_language": {
-        "Danish": 14281432,
-        "Indonesian": 8268199
+        "English": 281210
       },
-      "population": 32680625
+      "population": 282623
     },
     "BGD": {
       "name": "Bangladesh",
       "iso_a3": "BGD",
       "iso_a2": "BD",
       "official_languages": [
-        "Korean",
-        "French",
-        "Spanish"
+        "Bengali (Bangla)"
       ],
       "speakers_by_language": {
-        "Korean": 25748193,
-        "French": 18506514,
-        "Spanish": 21188619
+        "Bengali (Bangla)": 163507029
       },
-      "population": 99156555
+      "population": 175686899
     },
     "BHR": {
       "name": "Bahrain",
       "iso_a3": "BHR",
       "iso_a2": "BH",
       "official_languages": [
-        "Thai"
+        "Arabic"
       ],
       "speakers_by_language": {
-        "Thai": 15699542
+        "Arabic": 830411
       },
-      "population": 19145783
+      "population": 1660821
     },
     "BHS": {
       "name": "The Bahamas",
       "iso_a3": "BHS",
       "iso_a2": "BS",
       "official_languages": [
-        "Czech",
-        "Norwegian",
-        "Korean"
+        "English"
       ],
       "speakers_by_language": {
-        "Czech": 5672897,
-        "Norwegian": 5672897,
-        "Korean": 9389624
+        "English": 403033
       },
-      "population": 23039354
+      "population": 403033
     },
     "AZE": {
       "name": "Azerbaijan",
       "iso_a3": "AZE",
       "iso_a2": "AZ",
       "official_languages": [
-        "Vietnamese"
+        "Azerbaijani"
       ],
       "speakers_by_language": {
-        "Vietnamese": 68586171
+        "Azerbaijani": 8253196
       },
-      "population": 72195970
+      "population": 10256998
     },
     "AUT": {
       "name": "Austria",
       "iso_a3": "AUT",
       "iso_a2": "AT",
       "official_languages": [
-        "Persian",
-        "Spanish"
+        "German",
+        "Slovene",
+        "Burgenland Croatian",
+        "Hungarian",
+        "Czech",
+        "Slovak",
+        "Romani",
+        "Austrian Sign Language"
       ],
       "speakers_by_language": {
-        "Persian": 19271644,
-        "Spanish": 53163157
+        "German": 8178000,
+        "Slovene": 17953,
+        "Burgenland Croatian": 19412,
+        "Hungarian": 25884,
+        "Czech": 11035,
+        "Slovak": 3343,
+        "Romani": 28102,
+        "Austrian Sign Language": 9000
       },
-      "population": 129347860
+      "population": 9200931
     },
     "AUS": {
       "name": "Australia",
       "iso_a3": "AUS",
       "iso_a2": "AU",
       "official_languages": [
-        "Danish",
-        "Hindi"
+        "English"
       ],
       "speakers_by_language": {
-        "Danish": 36186852,
-        "Hindi": 25632355
+        "English": 27614411
       },
-      "population": 81341062
+      "population": 27614411
     },
     "IOA": {
       "name": "Indian Ocean Territories",
       "iso_a3": "IOA",
       "iso_a2": "",
       "official_languages": [
-        "Bengali",
-        "Ukrainian"
+        "English"
       ],
       "speakers_by_language": {
-        "Bengali": 103298826,
-        "Ukrainian": 58386294
+        "English": 226
       },
-      "population": 204664709
+      "population": 2285
     },
     "HMD": {
       "name": "Heard Island and McDonald Islands",
       "iso_a3": "HMD",
       "iso_a2": "HM",
-      "official_languages": [
-        "Persian"
-      ],
-      "speakers_by_language": {
-        "Persian": 10998169
-      },
-      "population": 16173779
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 0
     },
     "NFK": {
       "name": "Norfolk Island",
       "iso_a3": "NFK",
       "iso_a2": "NF",
       "official_languages": [
-        "Arabic",
-        "Hindi"
+        "English",
+        "Norf'k"
       ],
       "speakers_by_language": {
-        "Arabic": 4081321,
-        "Hindi": 497723
+        "English": 1147,
+        "Norf'k": 667
       },
-      "population": 6937946
+      "population": 2188
     },
     "ATC": {
       "name": "Ashmore and Cartier Islands",
       "iso_a3": "ATC",
       "iso_a2": "",
-      "official_languages": [
-        "English"
-      ],
-      "speakers_by_language": {
-        "English": 76735779
-      },
-      "population": 111211275
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 0
     },
     "ARM": {
       "name": "Armenia",
       "iso_a3": "ARM",
       "iso_a2": "AM",
       "official_languages": [
-        "Turkish",
-        "Greek"
+        "Armenian"
       ],
       "speakers_by_language": {
-        "Turkish": 210909,
-        "Greek": 297755
+        "Armenian": 2875697
       },
-      "population": 541132
+      "population": 3076200
     },
     "ARG": {
       "name": "Argentina",
       "iso_a3": "ARG",
       "iso_a2": "AR",
       "official_languages": [
-        "Hungarian",
-        "Hindi"
+        "Spanish",
+        "Guarani",
+        "Qom",
+        "Moqoit",
+        "Wichi"
       ],
       "speakers_by_language": {
-        "Hungarian": 57782106,
-        "Hindi": 86673160
+        "Spanish": 45851378,
+        "Guarani": 200000,
+        "Qom": 60000,
+        "Moqoit": 20000,
+        "Wichi": 50000
       },
-      "population": 150474236
+      "population": 45851378
     },
     "ATG": {
       "name": "Antigua and Barbuda",
       "iso_a3": "ATG",
       "iso_a2": "AG",
       "official_languages": [
-        "Dutch",
-        "Japanese",
-        "Hebrew"
+        "English"
       ],
       "speakers_by_language": {
-        "Dutch": 6762867,
-        "Japanese": 6078982,
-        "Hebrew": 6914844
+        "English": 94409
       },
-      "population": 29934384
+      "population": 94209
     },
     "AGO": {
       "name": "Angola",
       "iso_a3": "AGO",
       "iso_a2": "AO",
       "official_languages": [
-        "Japanese"
+        "Portuguese"
       ],
       "speakers_by_language": {
-        "Japanese": 120414901
+        "Portuguese": 28157256
       },
-      "population": 129478389
+      "population": 39040039
     },
     "AND": {
       "name": "Andorra",
       "iso_a3": "AND",
       "iso_a2": "AD",
       "official_languages": [
-        "Vietnamese",
-        "Indonesian"
+        "Catalan"
       ],
       "speakers_by_language": {
-        "Vietnamese": 71034636,
-        "Indonesian": 29817008
+        "Catalan": 31052
       },
-      "population": 162663943
+      "population": 87097
     },
     "DZA": {
       "name": "Algeria",
       "iso_a3": "DZA",
       "iso_a2": "DZ",
       "official_languages": [
-        "Indonesian"
+        "Arabic",
+        "Tamazight"
       ],
       "speakers_by_language": {
-        "Indonesian": 174675416
+        "Arabic": 34153442,
+        "Tamazight": 12917228
       },
-      "population": 221108122
+      "population": 47435312
     },
     "ALB": {
       "name": "Albania",
       "iso_a3": "ALB",
       "iso_a2": "AL",
       "official_languages": [
-        "Thai"
+        "Albanian"
       ],
       "speakers_by_language": {
-        "Thai": 174461645
+        "Albanian": 2524000
       },
-      "population": 212758104
+      "population": 2771508
     },
     "AFG": {
       "name": "Afghanistan",
       "iso_a3": "AFG",
       "iso_a2": "AF",
       "official_languages": [
-        "Swedish",
-        "Japanese",
-        "Spanish"
+        "Pashto",
+        "Dari"
       ],
       "speakers_by_language": {
-        "Swedish": 29220014,
-        "Japanese": 34284816,
-        "Spanish": 10519206
+        "Pashto": 21045173,
+        "Dari": 33759965
       },
-      "population": 79595738
+      "population": 43844111
     },
     "KAS": {
       "name": "Siachen Glacier",
       "iso_a3": "KAS",
       "iso_a2": "",
-      "official_languages": [
-        "Finnish",
-        "Hindi",
-        "Swahili"
-      ],
-      "speakers_by_language": {
-        "Finnish": 34848207,
-        "Hindi": 57883463,
-        "Swahili": 53158285
-      },
-      "population": 197148589
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 0
     },
     "ATA": {
       "name": "Antarctica",
       "iso_a3": "ATA",
       "iso_a2": "AQ",
-      "official_languages": [
-        "Danish",
-        "Romanian",
-        "Norwegian"
-      ],
-      "speakers_by_language": {
-        "Danish": 50080354,
-        "Romanian": 27249604,
-        "Norwegian": 41242646
-      },
-      "population": 156016585
+      "official_languages": [],
+      "speakers_by_language": {},
+      "population": 3050
     },
     "SXM": {
       "name": "Sint Maarten",
       "iso_a3": "SXM",
       "iso_a2": "SX",
       "official_languages": [
-        "Turkish",
-        "Korean"
+        "English",
+        "Dutch"
       ],
       "speakers_by_language": {
-        "Turkish": 16999430,
-        "Korean": 7171635
+        "English": 29648,
+        "Dutch": 1845
       },
-      "population": 35545685
+      "population": 43923
     },
     "TUV": {
       "name": "Tuvalu",
       "iso_a3": "TUV",
       "iso_a2": "TV",
       "official_languages": [
-        "Japanese",
-        "German",
-        "Spanish"
+        "Tuvaluan",
+        "English"
       ],
       "speakers_by_language": {
-        "Japanese": 74354907,
-        "German": 67848853,
-        "Spanish": 52977873
+        "Tuvaluan": 9890,
+        "English": 10643
       },
-      "population": 240964980
+      "population": 10643
     }
   }
 }
