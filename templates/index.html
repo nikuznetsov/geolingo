@@ -318,6 +318,328 @@
       outline: none !important;
     }
     .leaflet-container { -webkit-tap-highlight-color: transparent; }
+
+    .topbar-action {
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 13px;
+
+      display: inline-flex;          /* ВАЖНО */
+      align-items: center;           /* выравнивание по вертикали */
+      gap: 6px;                      /* расстояние между иконкой и текстом */
+      white-space: nowrap;           /* запрет переноса строки */
+
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .topbar-action {
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .topbar-action:hover {
+      background: #f9fafb;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(17, 24, 39, 0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .modal-overlay.hidden {
+      display: none;
+    }
+
+    .modal {
+      width: min(720px, 100%);
+      max-height: min(78vh, 720px);
+      background: #fff;
+      border-radius: 16px;
+      border: 1px solid rgba(0,0,0,0.10);
+      box-shadow: 0 24px 70px rgba(0,0,0,0.25);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+
+      padding: 14px 18px; /* ← ВАЖНО: увеличенный отступ справа */
+    }
+
+    .modal-title {
+      font-weight: 800;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .modal-close {
+      font-family: inherit;
+      font-size: 12px;          /* было больше */
+      font-weight: 700;
+      width: 28px;              /* было ~34px */
+      height: 28px;
+      line-height: 1;
+      border-radius: 8px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: #fff;
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-close:hover {
+      background: #f3f4f6;
+    }
+
+    .modal-body {
+      padding: 14px;
+      overflow: auto;
+      max-height: calc(78vh - 52px);
+      color: var(--text);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .modal-body h3 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .modal-body ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    .modal-body code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 8px;
+    }
+
+    /* FORCE modal close button sizing */
+    #modalClose.modal-close {
+      width: 28px !important;
+      height: 28px !important;
+      min-width: 28px !important;
+      min-height: 28px !important;
+      padding: 0 !important;
+      font-size: 12px !important;
+      line-height: 1 !important;
+      font-weight: 700 !important;
+
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+
+      border-radius: 8px !important;
+    }
+
+    body { outline: 5px solid red !important; }
+
+    /* Fix stretched close button */
+    #modalClose {
+      flex: 0 0 auto !important;   /* не растягиваться */
+      width: 28px !important;
+      height: 28px !important;
+      min-width: 28px !important;
+      min-height: 28px !important;
+      padding: 0 !important;
+      margin-left: auto !important; /* прижать вправо */
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      line-height: 1 !important;
+      font-size: 12px !important;
+      border-radius: 10px !important;
+    }
+
+    /* Increase text size ONLY inside modal content */
+    .modal-body {
+      font-size: 15px;      /* было ~13px */
+      line-height: 1.6;     /* для читабельности */
+    }
+
+    /* Заголовки внутри модалки */
+    .modal-body h3 {
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    /* Списки */
+    .modal-body ul li {
+      font-size: 15px;
+    }
+
+    /* Inline code (Enter, Backspace и т.п.) */
+    .modal-body code {
+      font-size: 14px;
+    }
+
+    /* Hide modal title when not needed */
+    .modal.no-title .modal-header {
+      padding-bottom: 8px;
+    }
+
+    .modal.no-title .modal-body {
+      padding-top: 16px;
+    }
+
+    .modal.no-title .modal-title {
+      display: none;
+    }
+
+    .sidebar-actions{
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .sidebar-action{
+      flex: 1 1 0;
+      height: 40px;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+
+      font-weight: 800;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .sidebar-action:hover{
+      background: #f3f4f6;
+    }
+
+    .sidebar-action .ico{
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    /* Remove header completely when title is hidden */
+    .modal.no-title .modal-header {
+      display: none;
+    }
+
+    /* Remove extra top padding when header is gone */
+    .modal.no-title .modal-body {
+      padding-top: 16px; /* можно 12px, если хочешь ещё плотнее */
+    }
+
+    /* Floating close button */
+    .modal-close-floating {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 2;
+
+      width: 28px;
+      height: 28px;
+      padding: 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+
+      border-radius: 8px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .modal-close-floating:hover {
+      background: #f3f4f6;
+    }
+
+    /* Two-column layout ONLY for Contacts modal content */
+    .contacts-grid{
+      display: grid;
+      grid-template-columns: 1fr 1.3fr; /* справа чуть шире для текста */
+      gap: 18px;
+      align-items: start;
+    }
+
+    .contacts-col h3{
+      margin-top: 0;
+    }
+
+    /* list style tighter */
+    .contacts-list{
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    .contacts-list li{
+      margin: 6px 0;
+    }
+
+    /* Responsive: stack on small screens */
+    @media (max-width: 640px){
+      .contacts-grid{
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Center content only inside Contacts column */
+    .contacts-col.contacts-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;   /* горизонтальное центрирование */
+      text-align: center;    /* текст по центру */
+    }
+
+    .contacts-list li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .contacts-list a {
+      padding: 6px 10px;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
+    .contacts-list a:hover {
+      background: #e5e7eb;
+    }
+
   </style>
 </head>
 
@@ -335,6 +657,13 @@
       <div class="brand-title">GeoLingo</div>
       <div class="brand-subtitle">Explore languages across the globe</div>
     </div>
+
+    <div class="topbar-actions">
+<!--      <button id="btnInstructions" class="topbar-action" type="button">📘 Guide</button>-->
+<!--      <button id="btnContacts" class="topbar-action" type="button">📬 Contacts</button>-->
+    </div>
+
+
   </div>
 </header>
 
@@ -353,11 +682,20 @@
       <button id="clear" class="primary" type="button">Reset</button>
     </div>
 
+    <div class="sidebar-actions">
+      <button id="btnInstructions" class="sidebar-action" type="button">
+        <span class="ico">📘</span><span>Guide</span>
+      </button>
+      <button id="btnContacts" class="sidebar-action" type="button">
+        <span class="ico">📬</span><span>Contacts</span>
+      </button>
+    </div>
+
     <div class="stat" id="stat">Loading…</div>
 
-    <div class="hint-text">
-      Hover over a country to see details below.
-    </div>
+<!--    <div class="hint-text">-->
+<!--      Hover over a country to see details below.-->
+<!--    </div>-->
 
     <div id="fixedTooltip" class="fixed-tooltip hidden">
       <div class="card" id="fixedTooltipCard"></div>
@@ -368,6 +706,27 @@
     <div id="map"></div>
   </main>
 </div>
+
+<!-- Modal -->
+<div id="modalOverlay" class="modal-overlay hidden">
+  <div class="modal" id="modalRoot">
+
+    <!-- floating close button -->
+    <button
+      id="modalClose"
+      class="modal-close-floating"
+      type="button"
+      aria-label="Close"
+    >✕</button>
+
+    <div class="modal-header">
+      <div id="modalTitle" class="modal-title"></div>
+    </div>
+
+    <div id="modalBody" class="modal-body"></div>
+  </div>
+</div>
+
 
 <script>
   // ====== Languages list from server ======
@@ -778,6 +1137,101 @@
     await loadCountryInfo();
     await loadWorld();
   })();
+
+  // ===== Modal: Contacts / Instructions =====
+  const modalOverlay = document.getElementById('modalOverlay');
+  const modalRoot = document.getElementById('modalRoot');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalBody = document.getElementById('modalBody');
+  const modalClose = document.getElementById('modalClose');
+
+  const btnInstructions = document.getElementById('btnInstructions');
+  const btnContacts = document.getElementById('btnContacts');
+
+  function openModal(title, html, options = {}) {
+    const { hideTitle = false } = options;
+
+    modalTitle.textContent = title || '';
+    modalBody.innerHTML = html;
+
+    modalRoot.classList.toggle('no-title', hideTitle);
+
+    modalOverlay.classList.remove('hidden');
+  }
+
+  function closeModal() {
+    modalOverlay.classList.add('hidden');
+    modalOverlay.setAttribute('aria-hidden', 'true');
+    modalTitle.textContent = '';
+    modalBody.innerHTML = '';
+  }
+
+  // Close button
+  modalClose.addEventListener('click', closeModal);
+
+  // Close on overlay click (but not when clicking inside modal)
+  modalOverlay.addEventListener('mousedown', (e) => {
+    if (e.target === modalOverlay) closeModal();
+  });
+
+  // Close on ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modalOverlay.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+
+  // Content templates (edit contacts to yours)
+  const INSTRUCTIONS_HTML = `
+    <h3>How to use GeoLingo</h3>
+    <ul>
+      <li>Start typing a language in the search box (autocomplete is case-insensitive).</li>
+      <li>Press <code>Enter</code> or click a suggestion to add it as a chip.</li>
+      <li>Click a chip to remove it. Press <code>Backspace</code> on an empty input to remove the last chip.</li>
+      <li>Hover over a country to see details (flag, official languages, speakers, population).</li>
+      <li>Use <strong>Reset</strong> to clear selections.</li>
+    </ul>
+    <h3>\n</h3>
+    <h3>Notes</h3>
+    <ul>
+      <li>Country borders are based on open-source geographic datasets (Natural Earth and related sources).</li>
+      <li>Some regions may be represented differently depending on the source dataset.</li>
+    </ul>
+  `;
+
+  const CONTACTS_HTML = `
+    <div class="contacts-grid">
+      <div class="contacts-col contacts-center">
+        <h3>Contacts</h3>
+        <ul class="contacts-list">
+          <li>💼 <a href="https://www.linkedin.com/in/nikita-kuznetsov-ab196a245/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li>📧 <a href="mailto:nikuznetsoff@gmail.com">Email</a></li>
+          <li>🐙 <a href="https://github.com/nikuznetsov" target="_blank" rel="noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="contacts-col">
+        <h3>Disclaimer</h3>
+        <p>
+          All numerical values (population and speakers) are approximate and derived from open-source/publicly
+          available data. If you have reliable evidence that data is inaccurate, please open an Issue or submit
+          a PR with credible sources.
+        </p>
+      </div>
+    </div>
+  `;
+
+
+
+  // Open handlers
+  btnInstructions.addEventListener('click', () =>
+    openModal('', INSTRUCTIONS_HTML, { hideTitle: true })
+  );
+
+  btnContacts.addEventListener('click', () =>
+    openModal('', CONTACTS_HTML, { hideTitle: true })
+  );
+
 </script>
 </body>
 </html>

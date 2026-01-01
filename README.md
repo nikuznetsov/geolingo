@@ -84,8 +84,33 @@ MIT License — free to use, modify, and distribute.
 - OpenStreetMap & Leaflet ecosystem
 - Railway — deployment platform
 
-## Contacts
+## 📬 Contacts
+
+If you have questions, ideas, or would like to collaborate, feel free to reach out:
 
 - 💼 **[LinkedIn](https://www.linkedin.com/in/nikita-kuznetsov-ab196a245/)**
 - 📧 **[Email](mailto:nikuznetsoff@gmail.com)** 
 - 🐙 **[GitHub](https://github.com/nikuznetsov)** 
+
+---
+
+## ⚠️ Disclaimer
+
+All numerical values presented in **GeoLingo** (including population figures and numbers of language speakers) are **approximate** and are derived from **open-source and publicly available data**.
+
+The project aims to provide **educational and exploratory insights**, not authoritative or official statistics.
+
+If you have **reliable evidence** that any data is inaccurate or outdated, you are welcome to:
+- open an **Issue** describing the discrepancy, or  
+- submit a **Pull Request** with corrected data **along with credible sources**.
+
+After verification, the data will be reviewed and updated accordingly.
+
+All geographic boundaries and map data are based on **open-source geographic datasets** (such as Natural Earth and related sources).  
+They may not reflect political positions, legal boundaries, or the views of any organization or government.
+
+Any suggestions, corrections, or improvements are welcome and can be shared via:
+- GitHub Issues / Pull Requests  
+- or directly through the contact information listed above.
+
+---
