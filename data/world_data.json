@@ -82,7 +82,7 @@
       "iso_a3": "VEN",
       "iso_a2": "VE",
       "official_languages": [
-        "Spanish",
+        "Spanish"
       ],
       "speakers_by_language": {
         "Spanish": 30518260
@@ -606,10 +606,10 @@
       "iso_a3": "TWN",
       "iso_a2": "CN-TW",
       "official_languages": [
-        "Chinese",
+        "Chinese"
       ],
       "speakers_by_language": {
-        "Chinese": 23065906,
+        "Chinese": 23065906
       },
       "population": 23065906
     },
@@ -651,7 +651,7 @@
         "Swedish"
       ],
       "speakers_by_language": {
-        "Swedish": 10588230,
+        "Swedish": 10588230
       },
       "population": 10588230
     },
@@ -1461,7 +1461,7 @@
         "Spanish"
       ],
       "speakers_by_language": {
-        "Spanish": 131946900,
+        "Spanish": 131946900
       },
       "population": 131946900
     },
@@ -1837,7 +1837,7 @@
         "English"
       ],
       "speakers_by_language": {
-        "English": 2200000,
+        "English": 2200000
       },
       "population": 2824913
     },
