@@ -460,7 +460,7 @@
       border-radius: 8px !important;
     }
 
-    body { outline: 5px solid red !important; }
+    /*body { outline: 5px solid red !important; }*/
 
     /* Fix stretched close button */
     #modalClose {
@@ -638,6 +638,113 @@
     }
     .contacts-list a:hover {
       background: #e5e7eb;
+    }
+
+    /* =========================
+   Mobile responsive layout
+   ========================= */
+    @media (max-width: 820px) {
+      html, body {
+        overflow: hidden;
+      }
+
+      /* Topbar чуть компактнее */
+      .topbar {
+        height: 56px;
+        padding: 0 12px;
+      }
+
+      .brand-title { font-size: 18px; }
+      .brand-subtitle { font-size: 11px; }
+
+      /* Layout: колонкой */
+      .layout {
+        height: calc(100dvh - 56px);
+        flex-direction: column;
+      }
+
+      /* Panel сверху, карта снизу */
+      .panel {
+        width: 100%;
+        flex: 0 0 auto;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+
+        /* не занимать весь экран */
+        max-height: 46dvh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+
+        padding: 12px;
+      }
+
+      /* Map занимает остаток */
+      .map-wrap {
+        flex: 1 1 auto;
+        min-height: 54dvh;
+      }
+
+      #map {
+        position: absolute;
+        inset: 0;
+      }
+
+      /* Инпуты: 16px чтобы iOS не делал auto-zoom */
+      input {
+        font-size: 16px;
+        padding: 10px 12px;
+      }
+
+      button {
+        font-size: 15px;
+        min-height: 44px;
+      }
+
+      /* Кнопки Guide/Contacts: 2 в ряд, переносятся */
+      .sidebar-actions {
+        flex-wrap: wrap;
+      }
+      .sidebar-action {
+        flex: 1 1 calc(50% - 5px);
+        height: 44px;
+      }
+
+      /* Карточка страны в сайдбаре: более “плотная” */
+      .fixed-tooltip .card {
+        box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+      }
+
+      /* Модалка на мобиле */
+      .modal {
+        width: 100%;
+        max-height: 86dvh;
+        border-radius: 14px;
+      }
+      .modal-body {
+        font-size: 15px;
+        line-height: 1.6;
+      }
+      .modal-close-floating {
+        top: 10px;
+        right: 10px;
+      }
+
+      /* Contacts: на телефоне в одну колонку */
+      .contacts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Очень маленькие экраны */
+    @media (max-width: 420px) {
+      .brand-subtitle { display: none; } /* чтобы не теснило */
+      .panel { max-height: 52dvh; }
+    }
+
+    @media (max-width: 820px) {
+      .suggest {
+        max-height: 180px;
+      }
     }
 
   </style>
@@ -990,6 +1097,13 @@
     maxZoom: 8,
     keyboard: false
   });
+
+  // Make Leaflet recalc size on mobile resize/orientation changes
+  function invalidateMapSoon() {
+    setTimeout(() => map.invalidateSize(true), 200);
+  }
+  window.addEventListener('resize', invalidateMapSoon);
+  window.addEventListener('orientationchange', invalidateMapSoon);
 
   const LAT_LIMIT = 85;
   const maxBounds = L.latLngBounds(
