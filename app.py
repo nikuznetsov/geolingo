@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Set, Any
 
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 from fastapi.staticfiles import StaticFiles
@@ -79,6 +79,16 @@ def index(request: Request):
     )
 
 
+@app.get("/sitemap.xml", include_in_schema=False)
+def sitemap():
+    return FileResponse("sitemap.xml", media_type="application/xml")
+
+
+@app.get("/robots.txt", include_in_schema=False)
+def robots():
+    return FileResponse("robots.txt", media_type="text/plain")
+
+
 @app.get("/api/country_info")
 def country_info():
     """
@@ -121,3 +131,4 @@ def coverage(payload: CoverageRequest):
         "covered_population": covered_population,
         "covered_speakers_in_countries": covered_speakers,
     }
+
