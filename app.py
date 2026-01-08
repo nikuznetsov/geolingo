@@ -89,34 +89,34 @@ def robots():
     return FileResponse(str(BASE_DIR / "robots.txt"), media_type="text/plain")
 
 
-@app.get("/favicon.ico", include_in_schema=False)
+@app.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
 def favicon_ico():
-    return FileResponse("favicon.ico", media_type="image/x-icon")
+    return FileResponse(str(BASE_DIR / "favicon.ico"), media_type="image/x-icon")
 
 
-@app.get("/favicon.svg", include_in_schema=False)
+@app.api_route("/favicon.svg", methods=["GET", "HEAD"], include_in_schema=False)
 def favicon_svg():
-    return FileResponse("favicon.svg", media_type="image/svg+xml")
+    return FileResponse(str(BASE_DIR / "favicon.svg"), media_type="image/svg+xml")
 
 
-@app.get("/apple-touch-icon.png", include_in_schema=False)
+@app.api_route("/apple-touch-icon.png", methods=["GET", "HEAD"], include_in_schema=False)
 def apple_touch_icon():
-    return FileResponse("apple-touch-icon.png", media_type="image/png")
+    return FileResponse(str(BASE_DIR / "apple-touch-icon.png"), media_type="image/png")
 
 
-@app.get("/site.webmanifest", include_in_schema=False)
+@app.api_route("/site.webmanifest", methods=["GET", "HEAD"], include_in_schema=False)
 def webmanifest():
-    return FileResponse("site.webmanifest", media_type="application/manifest+json")
+    return FileResponse(str(BASE_DIR / "site.webmanifest"), media_type="application/manifest+json")
 
 
-@app.get("/android-chrome-192x192.png", include_in_schema=False)
+@app.api_route("/android-chrome-192x192.png", methods=["GET", "HEAD"], include_in_schema=False)
 def android_192():
-    return FileResponse("android-chrome-192x192.png", media_type="image/png")
+    return FileResponse(str(BASE_DIR / "android-chrome-192x192.png"), media_type="image/png")
 
 
-@app.get("/android-chrome-512x512.png", include_in_schema=False)
+@app.api_route("/android-chrome-512x512.png", methods=["GET", "HEAD"], include_in_schema=False)
 def android_512():
-    return FileResponse("android-chrome-512x512.png", media_type="image/png")
+    return FileResponse(str(BASE_DIR / "android-chrome-512x512.png"), media_type="image/png")
 
 
 @app.get("/api/country_info")
@@ -161,5 +161,6 @@ def coverage(payload: CoverageRequest):
         "covered_population": covered_population,
         "covered_speakers_in_countries": covered_speakers,
     }
+
 
 
