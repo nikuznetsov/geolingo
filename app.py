@@ -81,12 +81,12 @@ def index(request: Request):
 
 @app.get("/sitemap.xml", include_in_schema=False)
 def sitemap():
-    return FileResponse("sitemap.xml", media_type="application/xml")
+    return FileResponse(str(BASE_DIR / "sitemap.xml"), media_type="application/xml")
 
 
 @app.get("/robots.txt", include_in_schema=False)
 def robots():
-    return FileResponse("robots.txt", media_type="text/plain")
+    return FileResponse(str(BASE_DIR / "robots.txt"), media_type="text/plain")
 
 
 @app.get("/api/country_info")
@@ -131,4 +131,5 @@ def coverage(payload: CoverageRequest):
         "covered_population": covered_population,
         "covered_speakers_in_countries": covered_speakers,
     }
+
 
